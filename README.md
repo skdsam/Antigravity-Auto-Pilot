@@ -8,17 +8,8 @@ Antigravity Auto-Pilot is a VS Code extension that automatically accepts agent p
 2.  **Enable Auto-Pilot**: Click on the "Auto-Pilot: OFF" status bar item in the bottom right corner of your IDE.
 3.  **Automatic Connection**: The extension will automatically try to connect to Antigravity on port **9000** (default) or **9222**.
 
-If the extension cannot connect automatically (it scans ports **9000** and **9222**), you may need to start Antigravity with the remote debugging flag manually.
+If the extension cannot connect automatically, ensure Antigravity is running and no other application is using ports **9000** or **9222**. Once confirmed, enable Auto-Pilot via the status bar.
 
-1.  **Close** Antigravity.
-2.  **Open** your terminal (PowerShell, CMD, or Bash).
-3.  **Run** the following command:
-
-    ```bash
-    antigravity --remote-debugging-port=9222
-    ```
-
-4.  Once Antigravity opens, enable Auto-Pilot via the status bar.
 
 ## Features
 
