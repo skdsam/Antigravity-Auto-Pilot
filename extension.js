@@ -78,12 +78,16 @@ async function handleToggle() {
 
 function startPolling() {
     if (pollTimer) clearInterval(pollTimer);
-    const automationScript = fs.readFileSync(path.join(__dirname, 'automation.js'), 'utf8');
 
     pollTimer = setInterval(async () => {
         if (!isEnabled) return;
-        await cdpHandler.scanAndInject(automationScript);
-    }, 2000);
+        try {
+            const automationScript = fs.readFileSync(path.join(__dirname, 'automation.js'), 'utf8');
+            await cdpHandler.scanAndInject(automationScript);
+        } catch (e) {
+            log(`Polling error: ${e.message}`);
+        }
+    }, 300);
     log('Auto-Pilot monitoring started.');
 }
 

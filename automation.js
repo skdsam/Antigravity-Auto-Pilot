@@ -39,18 +39,37 @@
         return dangerousCommands.some(cmd => lowerText.includes(cmd));
     }
 
-    // shadow DOM traversal helper
+    // shadow DOM and iframe traversal helper
     function getAllElements(root = document) {
-        let elements = Array.from(root.querySelectorAll('*'));
-        const shadowElements = [];
+        let elements = [];
+        try {
+            elements = Array.from(root.querySelectorAll('*'));
+        } catch (e) {
+            // Likely cross-origin iframe or restricted root
+            return [];
+        }
+
+        const additionalElements = [];
 
         elements.forEach(el => {
+            // Shadow DOM
             if (el.shadowRoot) {
-                shadowElements.push(...getAllElements(el.shadowRoot));
+                additionalElements.push(...getAllElements(el.shadowRoot));
+            }
+            // Iframes
+            if (el.tagName === 'IFRAME') {
+                try {
+                    const iframeDoc = el.contentDocument || el.contentWindow.document;
+                    if (iframeDoc) {
+                        additionalElements.push(...getAllElements(iframeDoc));
+                    }
+                } catch (e) {
+                    // Cross-origin restriction
+                }
             }
         });
 
-        return elements.concat(shadowElements);
+        return elements.concat(additionalElements);
     }
 
     function isAcceptButton(el, verbose = false) {
@@ -117,10 +136,10 @@
             hasPointerCursor;
     });
 
-    // Diagnostic logging
-    if (buttons.length > 0) {
-        // log(`Found ${buttons.length} potential buttons.`);
-    }
+    // Diagnostic logging - only if we found something
+    // if (buttons.length > 0) {
+    //     log(`Found ${buttons.length} potential buttons.`);
+    // }
 
     // Strategy 1: Look for Priority "All" buttons
     let target = buttons.find(el => {
@@ -141,5 +160,6 @@
         return `Clicked: ${label}`;
     }
 
-    return "No actionable buttons found";
+    // return "No actionable buttons found";
+    return null;
 })();

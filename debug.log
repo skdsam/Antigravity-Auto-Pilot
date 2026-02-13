@@ -1,0 +1,621 @@
+[12:52:52 PM] Auto-Pilot extension activating...
+[12:52:52 PM] Failed to suppress Quokka welcome page: Unable to write to User Settings because quokka.showWelcomePage is not a registered configuration.
+[12:52:52 PM] Activation complete.
+[12:53:04 PM] Auto-Pilot monitoring stopped.
+[12:53:19 PM] Auto-Pilot extension activating...
+[12:53:19 PM] Failed to suppress Quokka welcome page: Unable to write to User Settings because quokka.showWelcomePage is not a registered configuration.
+[12:53:19 PM] Activation complete.
+[12:54:05 PM] Auto-Pilot monitoring stopped.
+[12:54:46 PM] Auto-Pilot extension activating...
+[12:54:46 PM] Failed to suppress Quokka welcome page: Unable to write to User Settings because quokka.showWelcomePage is not a registered configuration.
+[12:54:46 PM] Activation complete.
+[12:54:49 PM] Checking CDP availability...
+[12:54:49 PM] CDP available. Starting polling.
+[12:54:49 PM] Auto-Pilot monitoring started.
+[12:54:51 PM] [CDP] Page: "[Extension Development Host] Antigravity" URL: vscode-file://vscode-app/c:/Users/skdso/AppData/Local/Programs/Antigravity/resources/app/out/vs/code/electron-browser/workbench/workbench.html [isAG: true, isQuokka: false, type: page]
+[12:54:51 PM] [CDP] >>> INJECTING into: [Extension Development Host] Antigravity
+[12:54:51 PM] [CDP] Page: "antigravity-autopilot-extension - Antigravity - Task" URL: vscode-file://vscode-app/c:/Users/skdso/AppData/Local/Programs/Antigravity/resources/app/out/vs/code/electron-browser/workbench/workbench.html [isAG: true, isQuokka: false, type: page]
+[12:54:51 PM] [CDP] >>> INJECTING into: antigravity-autopilot-extension - Antigravity - Task
+[12:54:51 PM] [CDP] Page: "Launchpad" URL: vscode-file://vscode-app/c:/Users/skdso/AppData/Local/Programs/Antigravity/resources/app/out/vs/code/electron-browser/workbench/workbench-jetski-agent.html [isAG: true, isQuokka: false, type: page]
+[12:54:51 PM] [CDP] >>> INJECTING into: Launchpad
+[12:54:51 PM] [CDP] Page: "" URL:  [isAG: false, isQuokka: false, type: worker]
+[12:54:51 PM] [CDP] Page: "" URL:  [isAG: false, isQuokka: false, type: worker]
+[12:54:51 PM] [CDP] Page: "" URL:  [isAG: false, isQuokka: false, type: worker]
+[12:54:51 PM] [CDP] Page: "" URL:  [isAG: false, isQuokka: false, type: worker]
+[12:54:53 PM] [CDP] Page: "[Extension Development Host] Antigravity" URL: vscode-file://vscode-app/c:/Users/skdso/AppData/Local/Programs/Antigravity/resources/app/out/vs/code/electron-browser/workbench/workbench.html [isAG: true, isQuokka: false, type: page]
+[12:54:53 PM] [CDP] >>> INJECTING into: [Extension Development Host] Antigravity
+[12:54:53 PM] [CDP] Page: "antigravity-autopilot-extension - Antigravity - Task" URL: vscode-file://vscode-app/c:/Users/skdso/AppData/Local/Programs/Antigravity/resources/app/out/vs/code/electron-browser/workbench/workbench.html [isAG: true, isQuokka: false, type: page]
+[12:54:53 PM] [CDP] >>> INJECTING into: antigravity-autopilot-extension - Antigravity - Task
+[12:54:53 PM] [CDP] Page: "Launchpad" URL: vscode-file://vscode-app/c:/Users/skdso/AppData/Local/Programs/Antigravity/resources/app/out/vs/code/electron-browser/workbench/workbench-jetski-agent.html [isAG: true, isQuokka: false, type: page]
+[12:54:53 PM] [CDP] >>> INJECTING into: Launchpad
+[12:54:53 PM] [CDP] Page: "" URL:  [isAG: false, isQuokka: false, type: worker]
+[12:54:53 PM] [CDP] Page: "" URL:  [isAG: false, isQuokka: false, type: worker]
+[12:54:53 PM] [CDP] Page: "" URL:  [isAG: false, isQuokka: false, type: worker]
+[12:54:53 PM] [CDP] Page: "" URL:  [isAG: false, isQuokka: false, type: worker]
+[12:54:55 PM] [CDP] Page: "[Extension Development Host] Antigravity" URL: vscode-file://vscode-app/c:/Users/skdso/AppData/Local/Programs/Antigravity/resources/app/out/vs/code/electron-browser/workbench/workbench.html [isAG: true, isQuokka: false, type: page]
+[12:54:55 PM] [CDP] >>> INJECTING into: [Extension Development Host] Antigravity
+[12:54:55 PM] [CDP] Page: "antigravity-autopilot-extension - Antigravity - Task" URL: vscode-file://vscode-app/c:/Users/skdso/AppData/Local/Programs/Antigravity/resources/app/out/vs/code/electron-browser/workbench/workbench.html [isAG: true, isQuokka: false, type: page]
+[12:54:55 PM] [CDP] >>> INJECTING into: antigravity-autopilot-extension - Antigravity - Task
+[12:54:55 PM] [CDP] Page: "Launchpad" URL: vscode-file://vscode-app/c:/Users/skdso/AppData/Local/Programs/Antigravity/resources/app/out/vs/code/electron-browser/workbench/workbench-jetski-agent.html [isAG: true, isQuokka: false, type: page]
+[12:54:55 PM] [CDP] >>> INJECTING into: Launchpad
+[12:54:55 PM] [CDP] Page: "" URL:  [isAG: false, isQuokka: false, type: worker]
+[12:54:55 PM] [CDP] Page: "" URL:  [isAG: false, isQuokka: false, type: worker]
+[12:54:55 PM] [CDP] Page: "" URL:  [isAG: false, isQuokka: false, type: worker]
+[12:54:55 PM] [CDP] Page: "" URL:  [isAG: false, isQuokka: false, type: worker]
+[12:54:57 PM] [CDP] Page: "[Extension Development Host] Antigravity" URL: vscode-file://vscode-app/c:/Users/skdso/AppData/Local/Programs/Antigravity/resources/app/out/vs/code/electron-browser/workbench/workbench.html [isAG: true, isQuokka: false, type: page]
+[12:54:57 PM] [CDP] >>> INJECTING into: [Extension Development Host] Antigravity
+[12:54:57 PM] [CDP] Page: "antigravity-autopilot-extension - Antigravity - Task" URL: vscode-file://vscode-app/c:/Users/skdso/AppData/Local/Programs/Antigravity/resources/app/out/vs/code/electron-browser/workbench/workbench.html [isAG: true, isQuokka: false, type: page]
+[12:54:57 PM] [CDP] >>> INJECTING into: antigravity-autopilot-extension - Antigravity - Task
+[12:54:57 PM] [CDP] Page: "Launchpad" URL: vscode-file://vscode-app/c:/Users/skdso/AppData/Local/Programs/Antigravity/resources/app/out/vs/code/electron-browser/workbench/workbench-jetski-agent.html [isAG: true, isQuokka: false, type: page]
+[12:54:57 PM] [CDP] >>> INJECTING into: Launchpad
+[12:54:57 PM] [CDP] Page: "" URL:  [isAG: false, isQuokka: false, type: worker]
+[12:54:57 PM] [CDP] Page: "" URL:  [isAG: false, isQuokka: false, type: worker]
+[12:54:57 PM] [CDP] Page: "" URL:  [isAG: false, isQuokka: false, type: worker]
+[12:54:57 PM] [CDP] Page: "" URL:  [isAG: false, isQuokka: false, type: worker]
+[12:54:59 PM] [CDP] Page: "[Extension Development Host] Antigravity" URL: vscode-file://vscode-app/c:/Users/skdso/AppData/Local/Programs/Antigravity/resources/app/out/vs/code/electron-browser/workbench/workbench.html [isAG: true, isQuokka: false, type: page]
+[12:54:59 PM] [CDP] >>> INJECTING into: [Extension Development Host] Antigravity
+[12:54:59 PM] [CDP] Page: "antigravity-autopilot-extension - Antigravity - Task" URL: vscode-file://vscode-app/c:/Users/skdso/AppData/Local/Programs/Antigravity/resources/app/out/vs/code/electron-browser/workbench/workbench.html [isAG: true, isQuokka: false, type: page]
+[12:54:59 PM] [CDP] >>> INJECTING into: antigravity-autopilot-extension - Antigravity - Task
+[12:54:59 PM] [CDP] Page: "Launchpad" URL: vscode-file://vscode-app/c:/Users/skdso/AppData/Local/Programs/Antigravity/resources/app/out/vs/code/electron-browser/workbench/workbench-jetski-agent.html [isAG: true, isQuokka: false, type: page]
+[12:54:59 PM] [CDP] >>> INJECTING into: Launchpad
+[12:54:59 PM] [CDP] Page: "" URL:  [isAG: false, isQuokka: false, type: worker]
+[12:54:59 PM] [CDP] Page: "" URL:  [isAG: false, isQuokka: false, type: worker]
+[12:54:59 PM] [CDP] Page: "" URL:  [isAG: false, isQuokka: false, type: worker]
+[12:54:59 PM] [CDP] Page: "" URL:  [isAG: false, isQuokka: false, type: worker]
+[12:55:01 PM] [CDP] Page: "[Extension Development Host] Antigravity" URL: vscode-file://vscode-app/c:/Users/skdso/AppData/Local/Programs/Antigravity/resources/app/out/vs/code/electron-browser/workbench/workbench.html [isAG: true, isQuokka: false, type: page]
+[12:55:01 PM] [CDP] >>> INJECTING into: [Extension Development Host] Antigravity
+[12:55:01 PM] [CDP] Page: "antigravity-autopilot-extension - Antigravity - Task" URL: vscode-file://vscode-app/c:/Users/skdso/AppData/Local/Programs/Antigravity/resources/app/out/vs/code/electron-browser/workbench/workbench.html [isAG: true, isQuokka: false, type: page]
+[12:55:01 PM] [CDP] >>> INJECTING into: antigravity-autopilot-extension - Antigravity - Task
+[12:55:01 PM] [CDP] Page: "Launchpad" URL: vscode-file://vscode-app/c:/Users/skdso/AppData/Local/Programs/Antigravity/resources/app/out/vs/code/electron-browser/workbench/workbench-jetski-agent.html [isAG: true, isQuokka: false, type: page]
+[12:55:01 PM] [CDP] >>> INJECTING into: Launchpad
+[12:55:01 PM] [CDP] Page: "" URL:  [isAG: false, isQuokka: false, type: worker]
+[12:55:01 PM] [CDP] Page: "" URL:  [isAG: false, isQuokka: false, type: worker]
+[12:55:01 PM] [CDP] Page: "" URL:  [isAG: false, isQuokka: false, type: worker]
+[12:55:01 PM] [CDP] Page: "" URL:  [isAG: false, isQuokka: false, type: worker]
+[12:55:03 PM] [CDP] Page: "[Extension Development Host] Antigravity" URL: vscode-file://vscode-app/c:/Users/skdso/AppData/Local/Programs/Antigravity/resources/app/out/vs/code/electron-browser/workbench/workbench.html [isAG: true, isQuokka: false, type: page]
+[12:55:03 PM] [CDP] >>> INJECTING into: [Extension Development Host] Antigravity
+[12:55:03 PM] [CDP] Page: "antigravity-autopilot-extension - Antigravity - Task" URL: vscode-file://vscode-app/c:/Users/skdso/AppData/Local/Programs/Antigravity/resources/app/out/vs/code/electron-browser/workbench/workbench.html [isAG: true, isQuokka: false, type: page]
+[12:55:03 PM] [CDP] >>> INJECTING into: antigravity-autopilot-extension - Antigravity - Task
+[12:55:03 PM] [CDP] Page: "Launchpad" URL: vscode-file://vscode-app/c:/Users/skdso/AppData/Local/Programs/Antigravity/resources/app/out/vs/code/electron-browser/workbench/workbench-jetski-agent.html [isAG: true, isQuokka: false, type: page]
+[12:55:03 PM] [CDP] >>> INJECTING into: Launchpad
+[12:55:03 PM] [CDP] Page: "" URL:  [isAG: false, isQuokka: false, type: worker]
+[12:55:03 PM] [CDP] Page: "" URL:  [isAG: false, isQuokka: false, type: worker]
+[12:55:03 PM] [CDP] Page: "" URL:  [isAG: false, isQuokka: false, type: worker]
+[12:55:03 PM] [CDP] Page: "" URL:  [isAG: false, isQuokka: false, type: worker]
+[12:55:05 PM] [CDP] Page: "[Extension Development Host] Antigravity" URL: vscode-file://vscode-app/c:/Users/skdso/AppData/Local/Programs/Antigravity/resources/app/out/vs/code/electron-browser/workbench/workbench.html [isAG: true, isQuokka: false, type: page]
+[12:55:05 PM] [CDP] >>> INJECTING into: [Extension Development Host] Antigravity
+[12:55:05 PM] [CDP] Page: "antigravity-autopilot-extension - Antigravity - Task" URL: vscode-file://vscode-app/c:/Users/skdso/AppData/Local/Programs/Antigravity/resources/app/out/vs/code/electron-browser/workbench/workbench.html [isAG: true, isQuokka: false, type: page]
+[12:55:05 PM] [CDP] >>> INJECTING into: antigravity-autopilot-extension - Antigravity - Task
+[12:55:05 PM] [CDP] Page: "Launchpad" URL: vscode-file://vscode-app/c:/Users/skdso/AppData/Local/Programs/Antigravity/resources/app/out/vs/code/electron-browser/workbench/workbench-jetski-agent.html [isAG: true, isQuokka: false, type: page]
+[12:55:05 PM] [CDP] >>> INJECTING into: Launchpad
+[12:55:05 PM] [CDP] Page: "" URL:  [isAG: false, isQuokka: false, type: worker]
+[12:55:05 PM] [CDP] Page: "" URL:  [isAG: false, isQuokka: false, type: worker]
+[12:55:05 PM] [CDP] Page: "" URL:  [isAG: false, isQuokka: false, type: worker]
+[12:55:05 PM] [CDP] Page: "" URL:  [isAG: false, isQuokka: false, type: worker]
+[12:55:07 PM] [CDP] Page: "[Extension Development Host] Antigravity" URL: vscode-file://vscode-app/c:/Users/skdso/AppData/Local/Programs/Antigravity/resources/app/out/vs/code/electron-browser/workbench/workbench.html [isAG: true, isQuokka: false, type: page]
+[12:55:07 PM] [CDP] >>> INJECTING into: [Extension Development Host] Antigravity
+[12:55:07 PM] [CDP] Page: "antigravity-autopilot-extension - Antigravity - Task" URL: vscode-file://vscode-app/c:/Users/skdso/AppData/Local/Programs/Antigravity/resources/app/out/vs/code/electron-browser/workbench/workbench.html [isAG: true, isQuokka: false, type: page]
+[12:55:07 PM] [CDP] >>> INJECTING into: antigravity-autopilot-extension - Antigravity - Task
+[12:55:07 PM] [CDP] Page: "Launchpad" URL: vscode-file://vscode-app/c:/Users/skdso/AppData/Local/Programs/Antigravity/resources/app/out/vs/code/electron-browser/workbench/workbench-jetski-agent.html [isAG: true, isQuokka: false, type: page]
+[12:55:07 PM] [CDP] >>> INJECTING into: Launchpad
+[12:55:07 PM] [CDP] Page: "" URL:  [isAG: false, isQuokka: false, type: worker]
+[12:55:07 PM] [CDP] Page: "" URL:  [isAG: false, isQuokka: false, type: worker]
+[12:55:07 PM] [CDP] Page: "" URL:  [isAG: false, isQuokka: false, type: worker]
+[12:55:07 PM] [CDP] Page: "" URL:  [isAG: false, isQuokka: false, type: worker]
+[12:55:09 PM] [CDP] Page: "[Extension Development Host] Antigravity" URL: vscode-file://vscode-app/c:/Users/skdso/AppData/Local/Programs/Antigravity/resources/app/out/vs/code/electron-browser/workbench/workbench.html [isAG: true, isQuokka: false, type: page]
+[12:55:09 PM] [CDP] >>> INJECTING into: [Extension Development Host] Antigravity
+[12:55:09 PM] [CDP] Page: "antigravity-autopilot-extension - Antigravity - Task" URL: vscode-file://vscode-app/c:/Users/skdso/AppData/Local/Programs/Antigravity/resources/app/out/vs/code/electron-browser/workbench/workbench.html [isAG: true, isQuokka: false, type: page]
+[12:55:09 PM] [CDP] >>> INJECTING into: antigravity-autopilot-extension - Antigravity - Task
+[12:55:09 PM] [CDP] Page: "Launchpad" URL: vscode-file://vscode-app/c:/Users/skdso/AppData/Local/Programs/Antigravity/resources/app/out/vs/code/electron-browser/workbench/workbench-jetski-agent.html [isAG: true, isQuokka: false, type: page]
+[12:55:09 PM] [CDP] >>> INJECTING into: Launchpad
+[12:55:09 PM] [CDP] Page: "" URL:  [isAG: false, isQuokka: false, type: worker]
+[12:55:09 PM] [CDP] Page: "" URL:  [isAG: false, isQuokka: false, type: worker]
+[12:55:09 PM] [CDP] Page: "" URL:  [isAG: false, isQuokka: false, type: worker]
+[12:55:09 PM] [CDP] Page: "" URL:  [isAG: false, isQuokka: false, type: worker]
+[12:55:11 PM] [CDP] Page: "[Extension Development Host] Antigravity" URL: vscode-file://vscode-app/c:/Users/skdso/AppData/Local/Programs/Antigravity/resources/app/out/vs/code/electron-browser/workbench/workbench.html [isAG: true, isQuokka: false, type: page]
+[12:55:11 PM] [CDP] >>> INJECTING into: [Extension Development Host] Antigravity
+[12:55:11 PM] [CDP] Page: "antigravity-autopilot-extension - Antigravity - Task" URL: vscode-file://vscode-app/c:/Users/skdso/AppData/Local/Programs/Antigravity/resources/app/out/vs/code/electron-browser/workbench/workbench.html [isAG: true, isQuokka: false, type: page]
+[12:55:11 PM] [CDP] >>> INJECTING into: antigravity-autopilot-extension - Antigravity - Task
+[12:55:11 PM] [CDP] Page: "Launchpad" URL: vscode-file://vscode-app/c:/Users/skdso/AppData/Local/Programs/Antigravity/resources/app/out/vs/code/electron-browser/workbench/workbench-jetski-agent.html [isAG: true, isQuokka: false, type: page]
+[12:55:11 PM] [CDP] >>> INJECTING into: Launchpad
+[12:55:11 PM] [CDP] Page: "" URL:  [isAG: false, isQuokka: false, type: worker]
+[12:55:11 PM] [CDP] Page: "" URL:  [isAG: false, isQuokka: false, type: worker]
+[12:55:11 PM] [CDP] Page: "" URL:  [isAG: false, isQuokka: false, type: worker]
+[12:55:11 PM] [CDP] Page: "" URL:  [isAG: false, isQuokka: false, type: worker]
+[12:55:11 PM] [CDP] Page: "" URL:  [isAG: false, isQuokka: false, type: worker]
+[12:55:13 PM] [CDP] Page: "[Extension Development Host] Antigravity" URL: vscode-file://vscode-app/c:/Users/skdso/AppData/Local/Programs/Antigravity/resources/app/out/vs/code/electron-browser/workbench/workbench.html [isAG: true, isQuokka: false, type: page]
+[12:55:13 PM] [CDP] >>> INJECTING into: [Extension Development Host] Antigravity
+[12:55:13 PM] [CDP] Page: "antigravity-autopilot-extension - Antigravity - Task" URL: vscode-file://vscode-app/c:/Users/skdso/AppData/Local/Programs/Antigravity/resources/app/out/vs/code/electron-browser/workbench/workbench.html [isAG: true, isQuokka: false, type: page]
+[12:55:13 PM] [CDP] >>> INJECTING into: antigravity-autopilot-extension - Antigravity - Task
+[12:55:13 PM] [CDP] Page: "Launchpad" URL: vscode-file://vscode-app/c:/Users/skdso/AppData/Local/Programs/Antigravity/resources/app/out/vs/code/electron-browser/workbench/workbench-jetski-agent.html [isAG: true, isQuokka: false, type: page]
+[12:55:13 PM] [CDP] >>> INJECTING into: Launchpad
+[12:55:13 PM] [CDP] Page: "" URL:  [isAG: false, isQuokka: false, type: worker]
+[12:55:13 PM] [CDP] Page: "" URL:  [isAG: false, isQuokka: false, type: worker]
+[12:55:13 PM] [CDP] Page: "" URL:  [isAG: false, isQuokka: false, type: worker]
+[12:55:13 PM] [CDP] Page: "" URL:  [isAG: false, isQuokka: false, type: worker]
+[12:55:13 PM] [CDP] Page: "" URL:  [isAG: false, isQuokka: false, type: worker]
+[12:55:15 PM] [CDP] Page: "[Extension Development Host] Antigravity" URL: vscode-file://vscode-app/c:/Users/skdso/AppData/Local/Programs/Antigravity/resources/app/out/vs/code/electron-browser/workbench/workbench.html [isAG: true, isQuokka: false, type: page]
+[12:55:15 PM] [CDP] >>> INJECTING into: [Extension Development Host] Antigravity
+[12:55:15 PM] [CDP] Page: "antigravity-autopilot-extension - Antigravity - Task" URL: vscode-file://vscode-app/c:/Users/skdso/AppData/Local/Programs/Antigravity/resources/app/out/vs/code/electron-browser/workbench/workbench.html [isAG: true, isQuokka: false, type: page]
+[12:55:15 PM] [CDP] >>> INJECTING into: antigravity-autopilot-extension - Antigravity - Task
+[12:55:15 PM] [CDP] Page: "Launchpad" URL: vscode-file://vscode-app/c:/Users/skdso/AppData/Local/Programs/Antigravity/resources/app/out/vs/code/electron-browser/workbench/workbench-jetski-agent.html [isAG: true, isQuokka: false, type: page]
+[12:55:15 PM] [CDP] >>> INJECTING into: Launchpad
+[12:55:15 PM] [CDP] Page: "" URL:  [isAG: false, isQuokka: false, type: worker]
+[12:55:15 PM] [CDP] Page: "" URL:  [isAG: false, isQuokka: false, type: worker]
+[12:55:15 PM] [CDP] Page: "" URL:  [isAG: false, isQuokka: false, type: worker]
+[12:55:15 PM] [CDP] Page: "" URL:  [isAG: false, isQuokka: false, type: worker]
+[12:55:15 PM] [CDP] Page: "" URL:  [isAG: false, isQuokka: false, type: worker]
+[12:55:17 PM] [CDP] Page: "[Extension Development Host] Antigravity" URL: vscode-file://vscode-app/c:/Users/skdso/AppData/Local/Programs/Antigravity/resources/app/out/vs/code/electron-browser/workbench/workbench.html [isAG: true, isQuokka: false, type: page]
+[12:55:17 PM] [CDP] >>> INJECTING into: [Extension Development Host] Antigravity
+[12:55:17 PM] [CDP] Page: "antigravity-autopilot-extension - Antigravity - Task" URL: vscode-file://vscode-app/c:/Users/skdso/AppData/Local/Programs/Antigravity/resources/app/out/vs/code/electron-browser/workbench/workbench.html [isAG: true, isQuokka: false, type: page]
+[12:55:17 PM] [CDP] >>> INJECTING into: antigravity-autopilot-extension - Antigravity - Task
+[12:55:17 PM] [CDP] Page: "Launchpad" URL: vscode-file://vscode-app/c:/Users/skdso/AppData/Local/Programs/Antigravity/resources/app/out/vs/code/electron-browser/workbench/workbench-jetski-agent.html [isAG: true, isQuokka: false, type: page]
+[12:55:17 PM] [CDP] >>> INJECTING into: Launchpad
+[12:55:17 PM] [CDP] Page: "" URL:  [isAG: false, isQuokka: false, type: worker]
+[12:55:17 PM] [CDP] Page: "" URL:  [isAG: false, isQuokka: false, type: worker]
+[12:55:17 PM] [CDP] Page: "" URL:  [isAG: false, isQuokka: false, type: worker]
+[12:55:17 PM] [CDP] Page: "" URL:  [isAG: false, isQuokka: false, type: worker]
+[12:55:17 PM] [CDP] Page: "" URL:  [isAG: false, isQuokka: false, type: worker]
+[12:55:19 PM] [CDP] Page: "[Extension Development Host] Antigravity" URL: vscode-file://vscode-app/c:/Users/skdso/AppData/Local/Programs/Antigravity/resources/app/out/vs/code/electron-browser/workbench/workbench.html [isAG: true, isQuokka: false, type: page]
+[12:55:19 PM] [CDP] >>> INJECTING into: [Extension Development Host] Antigravity
+[12:55:19 PM] [CDP] Page: "antigravity-autopilot-extension - Antigravity - Task" URL: vscode-file://vscode-app/c:/Users/skdso/AppData/Local/Programs/Antigravity/resources/app/out/vs/code/electron-browser/workbench/workbench.html [isAG: true, isQuokka: false, type: page]
+[12:55:19 PM] [CDP] >>> INJECTING into: antigravity-autopilot-extension - Antigravity - Task
+[12:55:19 PM] [CDP] Page: "Launchpad" URL: vscode-file://vscode-app/c:/Users/skdso/AppData/Local/Programs/Antigravity/resources/app/out/vs/code/electron-browser/workbench/workbench-jetski-agent.html [isAG: true, isQuokka: false, type: page]
+[12:55:19 PM] [CDP] >>> INJECTING into: Launchpad
+[12:55:19 PM] [CDP] Page: "" URL:  [isAG: false, isQuokka: false, type: worker]
+[12:55:19 PM] [CDP] Page: "" URL:  [isAG: false, isQuokka: false, type: worker]
+[12:55:19 PM] [CDP] Page: "" URL:  [isAG: false, isQuokka: false, type: worker]
+[12:55:19 PM] [CDP] Page: "" URL:  [isAG: false, isQuokka: false, type: worker]
+[12:55:19 PM] [CDP] Page: "" URL:  [isAG: false, isQuokka: false, type: worker]
+[12:55:21 PM] [CDP] Page: "[Extension Development Host] Antigravity" URL: vscode-file://vscode-app/c:/Users/skdso/AppData/Local/Programs/Antigravity/resources/app/out/vs/code/electron-browser/workbench/workbench.html [isAG: true, isQuokka: false, type: page]
+[12:55:21 PM] [CDP] >>> INJECTING into: [Extension Development Host] Antigravity
+[12:55:21 PM] [CDP] Page: "antigravity-autopilot-extension - Antigravity - Task" URL: vscode-file://vscode-app/c:/Users/skdso/AppData/Local/Programs/Antigravity/resources/app/out/vs/code/electron-browser/workbench/workbench.html [isAG: true, isQuokka: false, type: page]
+[12:55:21 PM] [CDP] >>> INJECTING into: antigravity-autopilot-extension - Antigravity - Task
+[12:55:21 PM] [CDP] Page: "Launchpad" URL: vscode-file://vscode-app/c:/Users/skdso/AppData/Local/Programs/Antigravity/resources/app/out/vs/code/electron-browser/workbench/workbench-jetski-agent.html [isAG: true, isQuokka: false, type: page]
+[12:55:21 PM] [CDP] >>> INJECTING into: Launchpad
+[12:55:21 PM] [CDP] Page: "" URL:  [isAG: false, isQuokka: false, type: worker]
+[12:55:21 PM] [CDP] Page: "" URL:  [isAG: false, isQuokka: false, type: worker]
+[12:55:21 PM] [CDP] Page: "" URL:  [isAG: false, isQuokka: false, type: worker]
+[12:55:21 PM] [CDP] Page: "" URL:  [isAG: false, isQuokka: false, type: worker]
+[12:55:21 PM] [CDP] Page: "" URL:  [isAG: false, isQuokka: false, type: worker]
+[12:55:23 PM] [CDP] Page: "[Extension Development Host] Antigravity" URL: vscode-file://vscode-app/c:/Users/skdso/AppData/Local/Programs/Antigravity/resources/app/out/vs/code/electron-browser/workbench/workbench.html [isAG: true, isQuokka: false, type: page]
+[12:55:23 PM] [CDP] >>> INJECTING into: [Extension Development Host] Antigravity
+[12:55:23 PM] [CDP] Page: "antigravity-autopilot-extension - Antigravity - Task" URL: vscode-file://vscode-app/c:/Users/skdso/AppData/Local/Programs/Antigravity/resources/app/out/vs/code/electron-browser/workbench/workbench.html [isAG: true, isQuokka: false, type: page]
+[12:55:23 PM] [CDP] >>> INJECTING into: antigravity-autopilot-extension - Antigravity - Task
+[12:55:23 PM] [CDP] Page: "Launchpad" URL: vscode-file://vscode-app/c:/Users/skdso/AppData/Local/Programs/Antigravity/resources/app/out/vs/code/electron-browser/workbench/workbench-jetski-agent.html [isAG: true, isQuokka: false, type: page]
+[12:55:23 PM] [CDP] >>> INJECTING into: Launchpad
+[12:55:23 PM] [CDP] Page: "" URL:  [isAG: false, isQuokka: false, type: worker]
+[12:55:23 PM] [CDP] Page: "" URL:  [isAG: false, isQuokka: false, type: worker]
+[12:55:23 PM] [CDP] Page: "" URL:  [isAG: false, isQuokka: false, type: worker]
+[12:55:23 PM] [CDP] Page: "" URL:  [isAG: false, isQuokka: false, type: worker]
+[12:55:23 PM] [CDP] Page: "" URL:  [isAG: false, isQuokka: false, type: worker]
+[12:55:25 PM] [CDP] Page: "[Extension Development Host] Antigravity" URL: vscode-file://vscode-app/c:/Users/skdso/AppData/Local/Programs/Antigravity/resources/app/out/vs/code/electron-browser/workbench/workbench.html [isAG: true, isQuokka: false, type: page]
+[12:55:25 PM] [CDP] >>> INJECTING into: [Extension Development Host] Antigravity
+[12:55:25 PM] [CDP] Page: "antigravity-autopilot-extension - Antigravity - Task" URL: vscode-file://vscode-app/c:/Users/skdso/AppData/Local/Programs/Antigravity/resources/app/out/vs/code/electron-browser/workbench/workbench.html [isAG: true, isQuokka: false, type: page]
+[12:55:25 PM] [CDP] >>> INJECTING into: antigravity-autopilot-extension - Antigravity - Task
+[12:55:25 PM] [CDP] Page: "Launchpad" URL: vscode-file://vscode-app/c:/Users/skdso/AppData/Local/Programs/Antigravity/resources/app/out/vs/code/electron-browser/workbench/workbench-jetski-agent.html [isAG: true, isQuokka: false, type: page]
+[12:55:25 PM] [CDP] >>> INJECTING into: Launchpad
+[12:55:25 PM] [CDP] Page: "" URL:  [isAG: false, isQuokka: false, type: worker]
+[12:55:25 PM] [CDP] Page: "" URL:  [isAG: false, isQuokka: false, type: worker]
+[12:55:25 PM] [CDP] Page: "" URL:  [isAG: false, isQuokka: false, type: worker]
+[12:55:25 PM] [CDP] Page: "" URL:  [isAG: false, isQuokka: false, type: worker]
+[12:55:25 PM] [CDP] Page: "" URL:  [isAG: false, isQuokka: false, type: worker]
+[12:55:27 PM] [CDP] Page: "[Extension Development Host] Antigravity" URL: vscode-file://vscode-app/c:/Users/skdso/AppData/Local/Programs/Antigravity/resources/app/out/vs/code/electron-browser/workbench/workbench.html [isAG: true, isQuokka: false, type: page]
+[12:55:27 PM] [CDP] >>> INJECTING into: [Extension Development Host] Antigravity
+[12:55:27 PM] [CDP] Page: "antigravity-autopilot-extension - Antigravity - Task" URL: vscode-file://vscode-app/c:/Users/skdso/AppData/Local/Programs/Antigravity/resources/app/out/vs/code/electron-browser/workbench/workbench.html [isAG: true, isQuokka: false, type: page]
+[12:55:27 PM] [CDP] >>> INJECTING into: antigravity-autopilot-extension - Antigravity - Task
+[12:55:27 PM] [CDP] Page: "Launchpad" URL: vscode-file://vscode-app/c:/Users/skdso/AppData/Local/Programs/Antigravity/resources/app/out/vs/code/electron-browser/workbench/workbench-jetski-agent.html [isAG: true, isQuokka: false, type: page]
+[12:55:27 PM] [CDP] >>> INJECTING into: Launchpad
+[12:55:27 PM] [CDP] Page: "" URL:  [isAG: false, isQuokka: false, type: worker]
+[12:55:27 PM] [CDP] Page: "" URL:  [isAG: false, isQuokka: false, type: worker]
+[12:55:27 PM] [CDP] Page: "" URL:  [isAG: false, isQuokka: false, type: worker]
+[12:55:27 PM] [CDP] Page: "" URL:  [isAG: false, isQuokka: false, type: worker]
+[12:55:27 PM] [CDP] Page: "" URL:  [isAG: false, isQuokka: false, type: worker]
+[12:55:29 PM] [CDP] Page: "[Extension Development Host] Antigravity" URL: vscode-file://vscode-app/c:/Users/skdso/AppData/Local/Programs/Antigravity/resources/app/out/vs/code/electron-browser/workbench/workbench.html [isAG: true, isQuokka: false, type: page]
+[12:55:29 PM] [CDP] >>> INJECTING into: [Extension Development Host] Antigravity
+[12:55:29 PM] [CDP] Page: "antigravity-autopilot-extension - Antigravity - Task" URL: vscode-file://vscode-app/c:/Users/skdso/AppData/Local/Programs/Antigravity/resources/app/out/vs/code/electron-browser/workbench/workbench.html [isAG: true, isQuokka: false, type: page]
+[12:55:29 PM] [CDP] >>> INJECTING into: antigravity-autopilot-extension - Antigravity - Task
+[12:55:29 PM] [CDP] Page: "Launchpad" URL: vscode-file://vscode-app/c:/Users/skdso/AppData/Local/Programs/Antigravity/resources/app/out/vs/code/electron-browser/workbench/workbench-jetski-agent.html [isAG: true, isQuokka: false, type: page]
+[12:55:29 PM] [CDP] >>> INJECTING into: Launchpad
+[12:55:30 PM] [CDP] Page: "" URL:  [isAG: false, isQuokka: false, type: worker]
+[12:55:30 PM] [CDP] Page: "" URL:  [isAG: false, isQuokka: false, type: worker]
+[12:55:30 PM] [CDP] Page: "" URL:  [isAG: false, isQuokka: false, type: worker]
+[12:55:30 PM] [CDP] Page: "" URL:  [isAG: false, isQuokka: false, type: worker]
+[12:55:30 PM] [CDP] Page: "" URL:  [isAG: false, isQuokka: false, type: worker]
+[12:55:31 PM] [CDP] Page: "[Extension Development Host] Antigravity" URL: vscode-file://vscode-app/c:/Users/skdso/AppData/Local/Programs/Antigravity/resources/app/out/vs/code/electron-browser/workbench/workbench.html [isAG: true, isQuokka: false, type: page]
+[12:55:31 PM] [CDP] >>> INJECTING into: [Extension Development Host] Antigravity
+[12:55:31 PM] [CDP] Page: "antigravity-autopilot-extension - Antigravity - Task" URL: vscode-file://vscode-app/c:/Users/skdso/AppData/Local/Programs/Antigravity/resources/app/out/vs/code/electron-browser/workbench/workbench.html [isAG: true, isQuokka: false, type: page]
+[12:55:31 PM] [CDP] >>> INJECTING into: antigravity-autopilot-extension - Antigravity - Task
+[12:55:32 PM] [CDP] Page: "Launchpad" URL: vscode-file://vscode-app/c:/Users/skdso/AppData/Local/Programs/Antigravity/resources/app/out/vs/code/electron-browser/workbench/workbench-jetski-agent.html [isAG: true, isQuokka: false, type: page]
+[12:55:32 PM] [CDP] >>> INJECTING into: Launchpad
+[12:55:32 PM] [CDP] Page: "" URL:  [isAG: false, isQuokka: false, type: worker]
+[12:55:32 PM] [CDP] Page: "" URL:  [isAG: false, isQuokka: false, type: worker]
+[12:55:32 PM] [CDP] Page: "" URL:  [isAG: false, isQuokka: false, type: worker]
+[12:55:32 PM] [CDP] Page: "" URL:  [isAG: false, isQuokka: false, type: worker]
+[12:55:32 PM] [CDP] Page: "" URL:  [isAG: false, isQuokka: false, type: worker]
+[12:55:33 PM] [CDP] Page: "[Extension Development Host] Antigravity" URL: vscode-file://vscode-app/c:/Users/skdso/AppData/Local/Programs/Antigravity/resources/app/out/vs/code/electron-browser/workbench/workbench.html [isAG: true, isQuokka: false, type: page]
+[12:55:33 PM] [CDP] >>> INJECTING into: [Extension Development Host] Antigravity
+[12:55:33 PM] [CDP] Page: "antigravity-autopilot-extension - Antigravity - Task" URL: vscode-file://vscode-app/c:/Users/skdso/AppData/Local/Programs/Antigravity/resources/app/out/vs/code/electron-browser/workbench/workbench.html [isAG: true, isQuokka: false, type: page]
+[12:55:33 PM] [CDP] >>> INJECTING into: antigravity-autopilot-extension - Antigravity - Task
+[12:55:34 PM] [CDP] Page: "Launchpad" URL: vscode-file://vscode-app/c:/Users/skdso/AppData/Local/Programs/Antigravity/resources/app/out/vs/code/electron-browser/workbench/workbench-jetski-agent.html [isAG: true, isQuokka: false, type: page]
+[12:55:34 PM] [CDP] >>> INJECTING into: Launchpad
+[12:55:34 PM] [CDP] Page: "" URL:  [isAG: false, isQuokka: false, type: worker]
+[12:55:34 PM] [CDP] Page: "" URL:  [isAG: false, isQuokka: false, type: worker]
+[12:55:34 PM] [CDP] Page: "" URL:  [isAG: false, isQuokka: false, type: worker]
+[12:55:34 PM] [CDP] Page: "" URL:  [isAG: false, isQuokka: false, type: worker]
+[12:55:34 PM] [CDP] Page: "" URL:  [isAG: false, isQuokka: false, type: worker]
+[12:55:35 PM] [CDP] Page: "[Extension Development Host] Antigravity" URL: vscode-file://vscode-app/c:/Users/skdso/AppData/Local/Programs/Antigravity/resources/app/out/vs/code/electron-browser/workbench/workbench.html [isAG: true, isQuokka: false, type: page]
+[12:55:35 PM] [CDP] >>> INJECTING into: [Extension Development Host] Antigravity
+[12:55:36 PM] [CDP] Page: "antigravity-autopilot-extension - Antigravity - Task" URL: vscode-file://vscode-app/c:/Users/skdso/AppData/Local/Programs/Antigravity/resources/app/out/vs/code/electron-browser/workbench/workbench.html [isAG: true, isQuokka: false, type: page]
+[12:55:36 PM] [CDP] >>> INJECTING into: antigravity-autopilot-extension - Antigravity - Task
+[12:55:36 PM] [CDP] Page: "Launchpad" URL: vscode-file://vscode-app/c:/Users/skdso/AppData/Local/Programs/Antigravity/resources/app/out/vs/code/electron-browser/workbench/workbench-jetski-agent.html [isAG: true, isQuokka: false, type: page]
+[12:55:36 PM] [CDP] >>> INJECTING into: Launchpad
+[12:55:36 PM] [CDP] Page: "" URL:  [isAG: false, isQuokka: false, type: worker]
+[12:55:36 PM] [CDP] Page: "" URL:  [isAG: false, isQuokka: false, type: worker]
+[12:55:36 PM] [CDP] Page: "" URL:  [isAG: false, isQuokka: false, type: worker]
+[12:55:36 PM] [CDP] Page: "" URL:  [isAG: false, isQuokka: false, type: worker]
+[12:55:36 PM] [CDP] Page: "" URL:  [isAG: false, isQuokka: false, type: worker]
+[12:55:37 PM] [CDP] Page: "[Extension Development Host] Antigravity" URL: vscode-file://vscode-app/c:/Users/skdso/AppData/Local/Programs/Antigravity/resources/app/out/vs/code/electron-browser/workbench/workbench.html [isAG: true, isQuokka: false, type: page]
+[12:55:37 PM] [CDP] >>> INJECTING into: [Extension Development Host] Antigravity
+[12:55:37 PM] [CDP] Page: "antigravity-autopilot-extension - Antigravity - Task" URL: vscode-file://vscode-app/c:/Users/skdso/AppData/Local/Programs/Antigravity/resources/app/out/vs/code/electron-browser/workbench/workbench.html [isAG: true, isQuokka: false, type: page]
+[12:55:38 PM] [CDP] >>> INJECTING into: antigravity-autopilot-extension - Antigravity - Task
+[12:55:38 PM] [CDP] Page: "Launchpad" URL: vscode-file://vscode-app/c:/Users/skdso/AppData/Local/Programs/Antigravity/resources/app/out/vs/code/electron-browser/workbench/workbench-jetski-agent.html [isAG: true, isQuokka: false, type: page]
+[12:55:38 PM] [CDP] >>> INJECTING into: Launchpad
+[12:55:38 PM] [CDP] Page: "" URL:  [isAG: false, isQuokka: false, type: worker]
+[12:55:38 PM] [CDP] Page: "" URL:  [isAG: false, isQuokka: false, type: worker]
+[12:55:38 PM] [CDP] Page: "" URL:  [isAG: false, isQuokka: false, type: worker]
+[12:55:38 PM] [CDP] Page: "" URL:  [isAG: false, isQuokka: false, type: worker]
+[12:55:38 PM] [CDP] Page: "" URL:  [isAG: false, isQuokka: false, type: worker]
+[12:55:39 PM] [CDP] Page: "[Extension Development Host] Antigravity" URL: vscode-file://vscode-app/c:/Users/skdso/AppData/Local/Programs/Antigravity/resources/app/out/vs/code/electron-browser/workbench/workbench.html [isAG: true, isQuokka: false, type: page]
+[12:55:39 PM] [CDP] >>> INJECTING into: [Extension Development Host] Antigravity
+[12:55:40 PM] [CDP] Page: "antigravity-autopilot-extension - Antigravity - Task" URL: vscode-file://vscode-app/c:/Users/skdso/AppData/Local/Programs/Antigravity/resources/app/out/vs/code/electron-browser/workbench/workbench.html [isAG: true, isQuokka: false, type: page]
+[12:55:40 PM] [CDP] >>> INJECTING into: antigravity-autopilot-extension - Antigravity - Task
+[12:55:41 PM] [CDP] Page: "Launchpad" URL: vscode-file://vscode-app/c:/Users/skdso/AppData/Local/Programs/Antigravity/resources/app/out/vs/code/electron-browser/workbench/workbench-jetski-agent.html [isAG: true, isQuokka: false, type: page]
+[12:55:41 PM] [CDP] >>> INJECTING into: Launchpad
+[12:55:41 PM] [CDP] Page: "" URL:  [isAG: false, isQuokka: false, type: worker]
+[12:55:41 PM] [CDP] Page: "" URL:  [isAG: false, isQuokka: false, type: worker]
+[12:55:41 PM] [CDP] Page: "" URL:  [isAG: false, isQuokka: false, type: worker]
+[12:55:41 PM] [CDP] Page: "" URL:  [isAG: false, isQuokka: false, type: worker]
+[12:55:41 PM] [CDP] Page: "" URL:  [isAG: false, isQuokka: false, type: worker]
+[12:55:41 PM] [CDP] Page: "[Extension Development Host] Antigravity" URL: vscode-file://vscode-app/c:/Users/skdso/AppData/Local/Programs/Antigravity/resources/app/out/vs/code/electron-browser/workbench/workbench.html [isAG: true, isQuokka: false, type: page]
+[12:55:41 PM] [CDP] >>> INJECTING into: [Extension Development Host] Antigravity
+[12:55:42 PM] [CDP] Page: "antigravity-autopilot-extension - Antigravity - Task" URL: vscode-file://vscode-app/c:/Users/skdso/AppData/Local/Programs/Antigravity/resources/app/out/vs/code/electron-browser/workbench/workbench.html [isAG: true, isQuokka: false, type: page]
+[12:55:42 PM] [CDP] >>> INJECTING into: antigravity-autopilot-extension - Antigravity - Task
+[12:55:42 PM] [CDP] Page: "Launchpad" URL: vscode-file://vscode-app/c:/Users/skdso/AppData/Local/Programs/Antigravity/resources/app/out/vs/code/electron-browser/workbench/workbench-jetski-agent.html [isAG: true, isQuokka: false, type: page]
+[12:55:42 PM] [CDP] >>> INJECTING into: Launchpad
+[12:55:42 PM] [CDP] Page: "" URL:  [isAG: false, isQuokka: false, type: worker]
+[12:55:42 PM] [CDP] Page: "" URL:  [isAG: false, isQuokka: false, type: worker]
+[12:55:42 PM] [CDP] Page: "" URL:  [isAG: false, isQuokka: false, type: worker]
+[12:55:42 PM] [CDP] Page: "" URL:  [isAG: false, isQuokka: false, type: worker]
+[12:55:42 PM] [CDP] Page: "" URL:  [isAG: false, isQuokka: false, type: worker]
+[12:55:44 PM] [CDP] Page: "[Extension Development Host] Antigravity" URL: vscode-file://vscode-app/c:/Users/skdso/AppData/Local/Programs/Antigravity/resources/app/out/vs/code/electron-browser/workbench/workbench.html [isAG: true, isQuokka: false, type: page]
+[12:55:44 PM] [CDP] >>> INJECTING into: [Extension Development Host] Antigravity
+[12:55:44 PM] [CDP] Page: "antigravity-autopilot-extension - Antigravity - Task" URL: vscode-file://vscode-app/c:/Users/skdso/AppData/Local/Programs/Antigravity/resources/app/out/vs/code/electron-browser/workbench/workbench.html [isAG: true, isQuokka: false, type: page]
+[12:55:44 PM] [CDP] >>> INJECTING into: antigravity-autopilot-extension - Antigravity - Task
+[12:55:44 PM] [CDP] Page: "Launchpad" URL: vscode-file://vscode-app/c:/Users/skdso/AppData/Local/Programs/Antigravity/resources/app/out/vs/code/electron-browser/workbench/workbench-jetski-agent.html [isAG: true, isQuokka: false, type: page]
+[12:55:44 PM] [CDP] >>> INJECTING into: Launchpad
+[12:55:44 PM] [CDP] Page: "" URL:  [isAG: false, isQuokka: false, type: worker]
+[12:55:44 PM] [CDP] Page: "" URL:  [isAG: false, isQuokka: false, type: worker]
+[12:55:44 PM] [CDP] Page: "" URL:  [isAG: false, isQuokka: false, type: worker]
+[12:55:44 PM] [CDP] Page: "" URL:  [isAG: false, isQuokka: false, type: worker]
+[12:55:44 PM] [CDP] Page: "" URL:  [isAG: false, isQuokka: false, type: worker]
+[12:55:46 PM] [CDP] Page: "[Extension Development Host] Antigravity" URL: vscode-file://vscode-app/c:/Users/skdso/AppData/Local/Programs/Antigravity/resources/app/out/vs/code/electron-browser/workbench/workbench.html [isAG: true, isQuokka: false, type: page]
+[12:55:46 PM] [CDP] >>> INJECTING into: [Extension Development Host] Antigravity
+[12:55:46 PM] [CDP] Page: "antigravity-autopilot-extension - Antigravity - Task" URL: vscode-file://vscode-app/c:/Users/skdso/AppData/Local/Programs/Antigravity/resources/app/out/vs/code/electron-browser/workbench/workbench.html [isAG: true, isQuokka: false, type: page]
+[12:55:46 PM] [CDP] >>> INJECTING into: antigravity-autopilot-extension - Antigravity - Task
+[12:55:46 PM] [CDP] Page: "Launchpad" URL: vscode-file://vscode-app/c:/Users/skdso/AppData/Local/Programs/Antigravity/resources/app/out/vs/code/electron-browser/workbench/workbench-jetski-agent.html [isAG: true, isQuokka: false, type: page]
+[12:55:46 PM] [CDP] >>> INJECTING into: Launchpad
+[12:55:46 PM] [CDP] Page: "" URL:  [isAG: false, isQuokka: false, type: worker]
+[12:55:46 PM] [CDP] Page: "" URL:  [isAG: false, isQuokka: false, type: worker]
+[12:55:46 PM] [CDP] Page: "" URL:  [isAG: false, isQuokka: false, type: worker]
+[12:55:46 PM] [CDP] Page: "" URL:  [isAG: false, isQuokka: false, type: worker]
+[12:55:46 PM] [CDP] Page: "" URL:  [isAG: false, isQuokka: false, type: worker]
+[12:55:48 PM] [CDP] Page: "[Extension Development Host] Antigravity" URL: vscode-file://vscode-app/c:/Users/skdso/AppData/Local/Programs/Antigravity/resources/app/out/vs/code/electron-browser/workbench/workbench.html [isAG: true, isQuokka: false, type: page]
+[12:55:48 PM] [CDP] >>> INJECTING into: [Extension Development Host] Antigravity
+[12:55:48 PM] [CDP] Page: "antigravity-autopilot-extension - Antigravity - Task" URL: vscode-file://vscode-app/c:/Users/skdso/AppData/Local/Programs/Antigravity/resources/app/out/vs/code/electron-browser/workbench/workbench.html [isAG: true, isQuokka: false, type: page]
+[12:55:48 PM] [CDP] >>> INJECTING into: antigravity-autopilot-extension - Antigravity - Task
+[12:55:48 PM] [CDP] Page: "Launchpad" URL: vscode-file://vscode-app/c:/Users/skdso/AppData/Local/Programs/Antigravity/resources/app/out/vs/code/electron-browser/workbench/workbench-jetski-agent.html [isAG: true, isQuokka: false, type: page]
+[12:55:48 PM] [CDP] >>> INJECTING into: Launchpad
+[12:55:48 PM] [CDP] Page: "" URL:  [isAG: false, isQuokka: false, type: worker]
+[12:55:48 PM] [CDP] Page: "" URL:  [isAG: false, isQuokka: false, type: worker]
+[12:55:48 PM] [CDP] Page: "" URL:  [isAG: false, isQuokka: false, type: worker]
+[12:55:48 PM] [CDP] Page: "" URL:  [isAG: false, isQuokka: false, type: worker]
+[12:55:48 PM] [CDP] Page: "" URL:  [isAG: false, isQuokka: false, type: worker]
+[12:55:50 PM] [CDP] Page: "[Extension Development Host] Antigravity" URL: vscode-file://vscode-app/c:/Users/skdso/AppData/Local/Programs/Antigravity/resources/app/out/vs/code/electron-browser/workbench/workbench.html [isAG: true, isQuokka: false, type: page]
+[12:55:50 PM] [CDP] >>> INJECTING into: [Extension Development Host] Antigravity
+[12:55:50 PM] [CDP] Page: "antigravity-autopilot-extension - Antigravity - Task" URL: vscode-file://vscode-app/c:/Users/skdso/AppData/Local/Programs/Antigravity/resources/app/out/vs/code/electron-browser/workbench/workbench.html [isAG: true, isQuokka: false, type: page]
+[12:55:50 PM] [CDP] >>> INJECTING into: antigravity-autopilot-extension - Antigravity - Task
+[12:55:50 PM] [CDP] Page: "Launchpad" URL: vscode-file://vscode-app/c:/Users/skdso/AppData/Local/Programs/Antigravity/resources/app/out/vs/code/electron-browser/workbench/workbench-jetski-agent.html [isAG: true, isQuokka: false, type: page]
+[12:55:50 PM] [CDP] >>> INJECTING into: Launchpad
+[12:55:50 PM] [CDP] Page: "" URL:  [isAG: false, isQuokka: false, type: worker]
+[12:55:50 PM] [CDP] Page: "" URL:  [isAG: false, isQuokka: false, type: worker]
+[12:55:50 PM] [CDP] Page: "" URL:  [isAG: false, isQuokka: false, type: worker]
+[12:55:50 PM] [CDP] Page: "" URL:  [isAG: false, isQuokka: false, type: worker]
+[12:55:50 PM] [CDP] Page: "" URL:  [isAG: false, isQuokka: false, type: worker]
+[12:55:52 PM] [CDP] Page: "[Extension Development Host] Antigravity" URL: vscode-file://vscode-app/c:/Users/skdso/AppData/Local/Programs/Antigravity/resources/app/out/vs/code/electron-browser/workbench/workbench.html [isAG: true, isQuokka: false, type: page]
+[12:55:52 PM] [CDP] >>> INJECTING into: [Extension Development Host] Antigravity
+[12:55:52 PM] [CDP] Page: "antigravity-autopilot-extension - Antigravity - Task" URL: vscode-file://vscode-app/c:/Users/skdso/AppData/Local/Programs/Antigravity/resources/app/out/vs/code/electron-browser/workbench/workbench.html [isAG: true, isQuokka: false, type: page]
+[12:55:52 PM] [CDP] >>> INJECTING into: antigravity-autopilot-extension - Antigravity - Task
+[12:55:52 PM] [CDP] Page: "Launchpad" URL: vscode-file://vscode-app/c:/Users/skdso/AppData/Local/Programs/Antigravity/resources/app/out/vs/code/electron-browser/workbench/workbench-jetski-agent.html [isAG: true, isQuokka: false, type: page]
+[12:55:52 PM] [CDP] >>> INJECTING into: Launchpad
+[12:55:52 PM] [CDP] Page: "" URL:  [isAG: false, isQuokka: false, type: worker]
+[12:55:52 PM] [CDP] Page: "" URL:  [isAG: false, isQuokka: false, type: worker]
+[12:55:52 PM] [CDP] Page: "" URL:  [isAG: false, isQuokka: false, type: worker]
+[12:55:52 PM] [CDP] Page: "" URL:  [isAG: false, isQuokka: false, type: worker]
+[12:55:52 PM] [CDP] Page: "" URL:  [isAG: false, isQuokka: false, type: worker]
+[12:55:54 PM] [CDP] Page: "[Extension Development Host] Antigravity" URL: vscode-file://vscode-app/c:/Users/skdso/AppData/Local/Programs/Antigravity/resources/app/out/vs/code/electron-browser/workbench/workbench.html [isAG: true, isQuokka: false, type: page]
+[12:55:54 PM] [CDP] >>> INJECTING into: [Extension Development Host] Antigravity
+[12:55:54 PM] [CDP] Page: "antigravity-autopilot-extension - Antigravity - Task" URL: vscode-file://vscode-app/c:/Users/skdso/AppData/Local/Programs/Antigravity/resources/app/out/vs/code/electron-browser/workbench/workbench.html [isAG: true, isQuokka: false, type: page]
+[12:55:54 PM] [CDP] >>> INJECTING into: antigravity-autopilot-extension - Antigravity - Task
+[12:55:54 PM] [CDP] Page: "Launchpad" URL: vscode-file://vscode-app/c:/Users/skdso/AppData/Local/Programs/Antigravity/resources/app/out/vs/code/electron-browser/workbench/workbench-jetski-agent.html [isAG: true, isQuokka: false, type: page]
+[12:55:54 PM] [CDP] >>> INJECTING into: Launchpad
+[12:55:54 PM] [CDP] Page: "" URL:  [isAG: false, isQuokka: false, type: worker]
+[12:55:54 PM] [CDP] Page: "" URL:  [isAG: false, isQuokka: false, type: worker]
+[12:55:54 PM] [CDP] Page: "" URL:  [isAG: false, isQuokka: false, type: worker]
+[12:55:54 PM] [CDP] Page: "" URL:  [isAG: false, isQuokka: false, type: worker]
+[12:55:54 PM] [CDP] Page: "" URL:  [isAG: false, isQuokka: false, type: worker]
+[12:55:56 PM] [CDP] Page: "[Extension Development Host] Antigravity" URL: vscode-file://vscode-app/c:/Users/skdso/AppData/Local/Programs/Antigravity/resources/app/out/vs/code/electron-browser/workbench/workbench.html [isAG: true, isQuokka: false, type: page]
+[12:55:56 PM] [CDP] >>> INJECTING into: [Extension Development Host] Antigravity
+[12:55:56 PM] [CDP] Page: "antigravity-autopilot-extension - Antigravity - Task" URL: vscode-file://vscode-app/c:/Users/skdso/AppData/Local/Programs/Antigravity/resources/app/out/vs/code/electron-browser/workbench/workbench.html [isAG: true, isQuokka: false, type: page]
+[12:55:56 PM] [CDP] >>> INJECTING into: antigravity-autopilot-extension - Antigravity - Task
+[12:55:56 PM] [CDP] Page: "Launchpad" URL: vscode-file://vscode-app/c:/Users/skdso/AppData/Local/Programs/Antigravity/resources/app/out/vs/code/electron-browser/workbench/workbench-jetski-agent.html [isAG: true, isQuokka: false, type: page]
+[12:55:56 PM] [CDP] >>> INJECTING into: Launchpad
+[12:55:56 PM] [CDP] Page: "" URL:  [isAG: false, isQuokka: false, type: worker]
+[12:55:56 PM] [CDP] Page: "" URL:  [isAG: false, isQuokka: false, type: worker]
+[12:55:56 PM] [CDP] Page: "" URL:  [isAG: false, isQuokka: false, type: worker]
+[12:55:56 PM] [CDP] Page: "" URL:  [isAG: false, isQuokka: false, type: worker]
+[12:55:56 PM] [CDP] Page: "" URL:  [isAG: false, isQuokka: false, type: worker]
+[12:55:58 PM] [CDP] Page: "[Extension Development Host] Antigravity" URL: vscode-file://vscode-app/c:/Users/skdso/AppData/Local/Programs/Antigravity/resources/app/out/vs/code/electron-browser/workbench/workbench.html [isAG: true, isQuokka: false, type: page]
+[12:55:58 PM] [CDP] >>> INJECTING into: [Extension Development Host] Antigravity
+[12:55:58 PM] [CDP] Page: "antigravity-autopilot-extension - Antigravity - Task" URL: vscode-file://vscode-app/c:/Users/skdso/AppData/Local/Programs/Antigravity/resources/app/out/vs/code/electron-browser/workbench/workbench.html [isAG: true, isQuokka: false, type: page]
+[12:55:58 PM] [CDP] >>> INJECTING into: antigravity-autopilot-extension - Antigravity - Task
+[12:55:58 PM] [CDP] Page: "Launchpad" URL: vscode-file://vscode-app/c:/Users/skdso/AppData/Local/Programs/Antigravity/resources/app/out/vs/code/electron-browser/workbench/workbench-jetski-agent.html [isAG: true, isQuokka: false, type: page]
+[12:55:58 PM] [CDP] >>> INJECTING into: Launchpad
+[12:55:58 PM] [CDP] Page: "" URL:  [isAG: false, isQuokka: false, type: worker]
+[12:55:58 PM] [CDP] Page: "" URL:  [isAG: false, isQuokka: false, type: worker]
+[12:55:58 PM] [CDP] Page: "" URL:  [isAG: false, isQuokka: false, type: worker]
+[12:55:58 PM] [CDP] Page: "" URL:  [isAG: false, isQuokka: false, type: worker]
+[12:55:58 PM] [CDP] Page: "" URL:  [isAG: false, isQuokka: false, type: worker]
+[12:56:00 PM] [CDP] Page: "[Extension Development Host] Antigravity" URL: vscode-file://vscode-app/c:/Users/skdso/AppData/Local/Programs/Antigravity/resources/app/out/vs/code/electron-browser/workbench/workbench.html [isAG: true, isQuokka: false, type: page]
+[12:56:00 PM] [CDP] >>> INJECTING into: [Extension Development Host] Antigravity
+[12:56:00 PM] [CDP] Page: "antigravity-autopilot-extension - Antigravity - Task" URL: vscode-file://vscode-app/c:/Users/skdso/AppData/Local/Programs/Antigravity/resources/app/out/vs/code/electron-browser/workbench/workbench.html [isAG: true, isQuokka: false, type: page]
+[12:56:00 PM] [CDP] >>> INJECTING into: antigravity-autopilot-extension - Antigravity - Task
+[12:56:00 PM] [CDP] Page: "Launchpad" URL: vscode-file://vscode-app/c:/Users/skdso/AppData/Local/Programs/Antigravity/resources/app/out/vs/code/electron-browser/workbench/workbench-jetski-agent.html [isAG: true, isQuokka: false, type: page]
+[12:56:00 PM] [CDP] >>> INJECTING into: Launchpad
+[12:56:00 PM] [CDP] Page: "" URL:  [isAG: false, isQuokka: false, type: worker]
+[12:56:00 PM] [CDP] Page: "" URL:  [isAG: false, isQuokka: false, type: worker]
+[12:56:00 PM] [CDP] Page: "" URL:  [isAG: false, isQuokka: false, type: worker]
+[12:56:00 PM] [CDP] Page: "" URL:  [isAG: false, isQuokka: false, type: worker]
+[12:56:00 PM] [CDP] Page: "" URL:  [isAG: false, isQuokka: false, type: worker]
+[12:56:02 PM] [CDP] Page: "[Extension Development Host] Antigravity" URL: vscode-file://vscode-app/c:/Users/skdso/AppData/Local/Programs/Antigravity/resources/app/out/vs/code/electron-browser/workbench/workbench.html [isAG: true, isQuokka: false, type: page]
+[12:56:02 PM] [CDP] >>> INJECTING into: [Extension Development Host] Antigravity
+[12:56:02 PM] [CDP] Page: "antigravity-autopilot-extension - Antigravity - Task" URL: vscode-file://vscode-app/c:/Users/skdso/AppData/Local/Programs/Antigravity/resources/app/out/vs/code/electron-browser/workbench/workbench.html [isAG: true, isQuokka: false, type: page]
+[12:56:02 PM] [CDP] >>> INJECTING into: antigravity-autopilot-extension - Antigravity - Task
+[12:56:02 PM] [CDP] Page: "Launchpad" URL: vscode-file://vscode-app/c:/Users/skdso/AppData/Local/Programs/Antigravity/resources/app/out/vs/code/electron-browser/workbench/workbench-jetski-agent.html [isAG: true, isQuokka: false, type: page]
+[12:56:02 PM] [CDP] >>> INJECTING into: Launchpad
+[12:56:02 PM] [CDP] Page: "" URL:  [isAG: false, isQuokka: false, type: worker]
+[12:56:02 PM] [CDP] Page: "" URL:  [isAG: false, isQuokka: false, type: worker]
+[12:56:02 PM] [CDP] Page: "" URL:  [isAG: false, isQuokka: false, type: worker]
+[12:56:02 PM] [CDP] Page: "" URL:  [isAG: false, isQuokka: false, type: worker]
+[12:56:02 PM] [CDP] Page: "" URL:  [isAG: false, isQuokka: false, type: worker]
+[12:56:04 PM] [CDP] Page: "[Extension Development Host] Antigravity" URL: vscode-file://vscode-app/c:/Users/skdso/AppData/Local/Programs/Antigravity/resources/app/out/vs/code/electron-browser/workbench/workbench.html [isAG: true, isQuokka: false, type: page]
+[12:56:04 PM] [CDP] >>> INJECTING into: [Extension Development Host] Antigravity
+[12:56:04 PM] [CDP] Page: "antigravity-autopilot-extension - Antigravity - Task" URL: vscode-file://vscode-app/c:/Users/skdso/AppData/Local/Programs/Antigravity/resources/app/out/vs/code/electron-browser/workbench/workbench.html [isAG: true, isQuokka: false, type: page]
+[12:56:04 PM] [CDP] >>> INJECTING into: antigravity-autopilot-extension - Antigravity - Task
+[12:56:04 PM] [CDP] Page: "Launchpad" URL: vscode-file://vscode-app/c:/Users/skdso/AppData/Local/Programs/Antigravity/resources/app/out/vs/code/electron-browser/workbench/workbench-jetski-agent.html [isAG: true, isQuokka: false, type: page]
+[12:56:04 PM] [CDP] >>> INJECTING into: Launchpad
+[12:56:04 PM] [CDP] Page: "" URL:  [isAG: false, isQuokka: false, type: worker]
+[12:56:04 PM] [CDP] Page: "" URL:  [isAG: false, isQuokka: false, type: worker]
+[12:56:04 PM] [CDP] Page: "" URL:  [isAG: false, isQuokka: false, type: worker]
+[12:56:04 PM] [CDP] Page: "" URL:  [isAG: false, isQuokka: false, type: worker]
+[12:56:04 PM] [CDP] Page: "" URL:  [isAG: false, isQuokka: false, type: worker]
+[12:56:06 PM] [CDP] Page: "[Extension Development Host] Antigravity" URL: vscode-file://vscode-app/c:/Users/skdso/AppData/Local/Programs/Antigravity/resources/app/out/vs/code/electron-browser/workbench/workbench.html [isAG: true, isQuokka: false, type: page]
+[12:56:06 PM] [CDP] >>> INJECTING into: [Extension Development Host] Antigravity
+[12:56:06 PM] [CDP] Page: "antigravity-autopilot-extension - Antigravity - Task" URL: vscode-file://vscode-app/c:/Users/skdso/AppData/Local/Programs/Antigravity/resources/app/out/vs/code/electron-browser/workbench/workbench.html [isAG: true, isQuokka: false, type: page]
+[12:56:06 PM] [CDP] >>> INJECTING into: antigravity-autopilot-extension - Antigravity - Task
+[12:56:06 PM] [CDP] Page: "Launchpad" URL: vscode-file://vscode-app/c:/Users/skdso/AppData/Local/Programs/Antigravity/resources/app/out/vs/code/electron-browser/workbench/workbench-jetski-agent.html [isAG: true, isQuokka: false, type: page]
+[12:56:06 PM] [CDP] >>> INJECTING into: Launchpad
+[12:56:06 PM] [CDP] Page: "" URL:  [isAG: false, isQuokka: false, type: worker]
+[12:56:06 PM] [CDP] Page: "" URL:  [isAG: false, isQuokka: false, type: worker]
+[12:56:06 PM] [CDP] Page: "" URL:  [isAG: false, isQuokka: false, type: worker]
+[12:56:06 PM] [CDP] Page: "" URL:  [isAG: false, isQuokka: false, type: worker]
+[12:56:06 PM] [CDP] Page: "" URL:  [isAG: false, isQuokka: false, type: worker]
+[12:56:08 PM] [CDP] Page: "[Extension Development Host] Antigravity" URL: vscode-file://vscode-app/c:/Users/skdso/AppData/Local/Programs/Antigravity/resources/app/out/vs/code/electron-browser/workbench/workbench.html [isAG: true, isQuokka: false, type: page]
+[12:56:08 PM] [CDP] >>> INJECTING into: [Extension Development Host] Antigravity
+[12:56:08 PM] [CDP] Page: "antigravity-autopilot-extension - Antigravity - Task" URL: vscode-file://vscode-app/c:/Users/skdso/AppData/Local/Programs/Antigravity/resources/app/out/vs/code/electron-browser/workbench/workbench.html [isAG: true, isQuokka: false, type: page]
+[12:56:08 PM] [CDP] >>> INJECTING into: antigravity-autopilot-extension - Antigravity - Task
+[12:56:08 PM] [CDP] Page: "Launchpad" URL: vscode-file://vscode-app/c:/Users/skdso/AppData/Local/Programs/Antigravity/resources/app/out/vs/code/electron-browser/workbench/workbench-jetski-agent.html [isAG: true, isQuokka: false, type: page]
+[12:56:08 PM] [CDP] >>> INJECTING into: Launchpad
+[12:56:08 PM] [CDP] Page: "" URL:  [isAG: false, isQuokka: false, type: worker]
+[12:56:08 PM] [CDP] Page: "" URL:  [isAG: false, isQuokka: false, type: worker]
+[12:56:08 PM] [CDP] Page: "" URL:  [isAG: false, isQuokka: false, type: worker]
+[12:56:08 PM] [CDP] Page: "" URL:  [isAG: false, isQuokka: false, type: worker]
+[12:56:08 PM] [CDP] Page: "" URL:  [isAG: false, isQuokka: false, type: worker]
+[12:56:10 PM] [CDP] Page: "[Extension Development Host] Antigravity" URL: vscode-file://vscode-app/c:/Users/skdso/AppData/Local/Programs/Antigravity/resources/app/out/vs/code/electron-browser/workbench/workbench.html [isAG: true, isQuokka: false, type: page]
+[12:56:10 PM] [CDP] >>> INJECTING into: [Extension Development Host] Antigravity
+[12:56:10 PM] [CDP] Page: "antigravity-autopilot-extension - Antigravity - Task" URL: vscode-file://vscode-app/c:/Users/skdso/AppData/Local/Programs/Antigravity/resources/app/out/vs/code/electron-browser/workbench/workbench.html [isAG: true, isQuokka: false, type: page]
+[12:56:10 PM] [CDP] >>> INJECTING into: antigravity-autopilot-extension - Antigravity - Task
+[12:56:10 PM] [CDP] Page: "Launchpad" URL: vscode-file://vscode-app/c:/Users/skdso/AppData/Local/Programs/Antigravity/resources/app/out/vs/code/electron-browser/workbench/workbench-jetski-agent.html [isAG: true, isQuokka: false, type: page]
+[12:56:10 PM] [CDP] >>> INJECTING into: Launchpad
+[12:56:10 PM] [CDP] Page: "" URL:  [isAG: false, isQuokka: false, type: worker]
+[12:56:10 PM] [CDP] Page: "" URL:  [isAG: false, isQuokka: false, type: worker]
+[12:56:10 PM] [CDP] Page: "" URL:  [isAG: false, isQuokka: false, type: worker]
+[12:56:10 PM] [CDP] Page: "" URL:  [isAG: false, isQuokka: false, type: worker]
+[12:56:10 PM] [CDP] Page: "" URL:  [isAG: false, isQuokka: false, type: worker]
+[12:56:12 PM] [CDP] Page: "[Extension Development Host] Antigravity" URL: vscode-file://vscode-app/c:/Users/skdso/AppData/Local/Programs/Antigravity/resources/app/out/vs/code/electron-browser/workbench/workbench.html [isAG: true, isQuokka: false, type: page]
+[12:56:12 PM] [CDP] >>> INJECTING into: [Extension Development Host] Antigravity
+[12:56:12 PM] [CDP] Page: "antigravity-autopilot-extension - Antigravity - Task" URL: vscode-file://vscode-app/c:/Users/skdso/AppData/Local/Programs/Antigravity/resources/app/out/vs/code/electron-browser/workbench/workbench.html [isAG: true, isQuokka: false, type: page]
+[12:56:12 PM] [CDP] >>> INJECTING into: antigravity-autopilot-extension - Antigravity - Task
+[12:56:12 PM] [CDP] Page: "Launchpad" URL: vscode-file://vscode-app/c:/Users/skdso/AppData/Local/Programs/Antigravity/resources/app/out/vs/code/electron-browser/workbench/workbench-jetski-agent.html [isAG: true, isQuokka: false, type: page]
+[12:56:12 PM] [CDP] >>> INJECTING into: Launchpad
+[12:56:12 PM] [CDP] Page: "" URL:  [isAG: false, isQuokka: false, type: worker]
+[12:56:12 PM] [CDP] Page: "" URL:  [isAG: false, isQuokka: false, type: worker]
+[12:56:12 PM] [CDP] Page: "" URL:  [isAG: false, isQuokka: false, type: worker]
+[12:56:12 PM] [CDP] Page: "" URL:  [isAG: false, isQuokka: false, type: worker]
+[12:56:12 PM] [CDP] Page: "" URL:  [isAG: false, isQuokka: false, type: worker]
+[12:56:14 PM] [CDP] Page: "[Extension Development Host] Antigravity" URL: vscode-file://vscode-app/c:/Users/skdso/AppData/Local/Programs/Antigravity/resources/app/out/vs/code/electron-browser/workbench/workbench.html [isAG: true, isQuokka: false, type: page]
+[12:56:14 PM] [CDP] >>> INJECTING into: [Extension Development Host] Antigravity
+[12:56:14 PM] [CDP] Page: "antigravity-autopilot-extension - Antigravity - Task" URL: vscode-file://vscode-app/c:/Users/skdso/AppData/Local/Programs/Antigravity/resources/app/out/vs/code/electron-browser/workbench/workbench.html [isAG: true, isQuokka: false, type: page]
+[12:56:14 PM] [CDP] >>> INJECTING into: antigravity-autopilot-extension - Antigravity - Task
+[12:56:14 PM] [CDP] Page: "Launchpad" URL: vscode-file://vscode-app/c:/Users/skdso/AppData/Local/Programs/Antigravity/resources/app/out/vs/code/electron-browser/workbench/workbench-jetski-agent.html [isAG: true, isQuokka: false, type: page]
+[12:56:14 PM] [CDP] >>> INJECTING into: Launchpad
+[12:56:14 PM] [CDP] Page: "" URL:  [isAG: false, isQuokka: false, type: worker]
+[12:56:14 PM] [CDP] Page: "" URL:  [isAG: false, isQuokka: false, type: worker]
+[12:56:14 PM] [CDP] Page: "" URL:  [isAG: false, isQuokka: false, type: worker]
+[12:56:14 PM] [CDP] Page: "" URL:  [isAG: false, isQuokka: false, type: worker]
+[12:56:14 PM] [CDP] Page: "" URL:  [isAG: false, isQuokka: false, type: worker]
+[12:56:16 PM] [CDP] Page: "[Extension Development Host] Antigravity" URL: vscode-file://vscode-app/c:/Users/skdso/AppData/Local/Programs/Antigravity/resources/app/out/vs/code/electron-browser/workbench/workbench.html [isAG: true, isQuokka: false, type: page]
+[12:56:16 PM] [CDP] >>> INJECTING into: [Extension Development Host] Antigravity
+[12:56:16 PM] [CDP] Page: "antigravity-autopilot-extension - Antigravity - Task" URL: vscode-file://vscode-app/c:/Users/skdso/AppData/Local/Programs/Antigravity/resources/app/out/vs/code/electron-browser/workbench/workbench.html [isAG: true, isQuokka: false, type: page]
+[12:56:16 PM] [CDP] >>> INJECTING into: antigravity-autopilot-extension - Antigravity - Task
+[12:56:16 PM] [CDP] Page: "Launchpad" URL: vscode-file://vscode-app/c:/Users/skdso/AppData/Local/Programs/Antigravity/resources/app/out/vs/code/electron-browser/workbench/workbench-jetski-agent.html [isAG: true, isQuokka: false, type: page]
+[12:56:16 PM] [CDP] >>> INJECTING into: Launchpad
+[12:56:16 PM] [CDP] Page: "" URL:  [isAG: false, isQuokka: false, type: worker]
+[12:56:16 PM] [CDP] Page: "" URL:  [isAG: false, isQuokka: false, type: worker]
+[12:56:16 PM] [CDP] Page: "" URL:  [isAG: false, isQuokka: false, type: worker]
+[12:56:16 PM] [CDP] Page: "" URL:  [isAG: false, isQuokka: false, type: worker]
+[12:56:16 PM] [CDP] Page: "" URL:  [isAG: false, isQuokka: false, type: worker]
+[12:56:18 PM] [CDP] Page: "[Extension Development Host] Antigravity" URL: vscode-file://vscode-app/c:/Users/skdso/AppData/Local/Programs/Antigravity/resources/app/out/vs/code/electron-browser/workbench/workbench.html [isAG: true, isQuokka: false, type: page]
+[12:56:18 PM] [CDP] >>> INJECTING into: [Extension Development Host] Antigravity
+[12:56:18 PM] [CDP] Page: "antigravity-autopilot-extension - Antigravity - Task" URL: vscode-file://vscode-app/c:/Users/skdso/AppData/Local/Programs/Antigravity/resources/app/out/vs/code/electron-browser/workbench/workbench.html [isAG: true, isQuokka: false, type: page]
+[12:56:18 PM] [CDP] >>> INJECTING into: antigravity-autopilot-extension - Antigravity - Task
+[12:56:18 PM] [CDP] Page: "Launchpad" URL: vscode-file://vscode-app/c:/Users/skdso/AppData/Local/Programs/Antigravity/resources/app/out/vs/code/electron-browser/workbench/workbench-jetski-agent.html [isAG: true, isQuokka: false, type: page]
+[12:56:18 PM] [CDP] >>> INJECTING into: Launchpad
+[12:56:18 PM] [CDP] Page: "" URL:  [isAG: false, isQuokka: false, type: worker]
+[12:56:18 PM] [CDP] Page: "" URL:  [isAG: false, isQuokka: false, type: worker]
+[12:56:18 PM] [CDP] Page: "" URL:  [isAG: false, isQuokka: false, type: worker]
+[12:56:18 PM] [CDP] Page: "" URL:  [isAG: false, isQuokka: false, type: worker]
+[12:56:18 PM] [CDP] Page: "" URL:  [isAG: false, isQuokka: false, type: worker]
+[12:56:20 PM] [CDP] Page: "[Extension Development Host] Antigravity" URL: vscode-file://vscode-app/c:/Users/skdso/AppData/Local/Programs/Antigravity/resources/app/out/vs/code/electron-browser/workbench/workbench.html [isAG: true, isQuokka: false, type: page]
+[12:56:20 PM] [CDP] >>> INJECTING into: [Extension Development Host] Antigravity
+[12:56:20 PM] [CDP] Page: "antigravity-autopilot-extension - Antigravity - Task" URL: vscode-file://vscode-app/c:/Users/skdso/AppData/Local/Programs/Antigravity/resources/app/out/vs/code/electron-browser/workbench/workbench.html [isAG: true, isQuokka: false, type: page]
+[12:56:20 PM] [CDP] >>> INJECTING into: antigravity-autopilot-extension - Antigravity - Task
+[12:56:20 PM] [CDP] Page: "Launchpad" URL: vscode-file://vscode-app/c:/Users/skdso/AppData/Local/Programs/Antigravity/resources/app/out/vs/code/electron-browser/workbench/workbench-jetski-agent.html [isAG: true, isQuokka: false, type: page]
+[12:56:20 PM] [CDP] >>> INJECTING into: Launchpad
+[12:56:20 PM] [CDP] Page: "" URL:  [isAG: false, isQuokka: false, type: worker]
+[12:56:20 PM] [CDP] Page: "" URL:  [isAG: false, isQuokka: false, type: worker]
+[12:56:20 PM] [CDP] Page: "" URL:  [isAG: false, isQuokka: false, type: worker]
+[12:56:20 PM] [CDP] Page: "" URL:  [isAG: false, isQuokka: false, type: worker]
+[12:56:20 PM] [CDP] Page: "" URL:  [isAG: false, isQuokka: false, type: worker]
+[12:56:22 PM] [CDP] Page: "[Extension Development Host] Antigravity" URL: vscode-file://vscode-app/c:/Users/skdso/AppData/Local/Programs/Antigravity/resources/app/out/vs/code/electron-browser/workbench/workbench.html [isAG: true, isQuokka: false, type: page]
+[12:56:22 PM] [CDP] >>> INJECTING into: [Extension Development Host] Antigravity
+[12:56:22 PM] [CDP] Page: "antigravity-autopilot-extension - Antigravity - Task" URL: vscode-file://vscode-app/c:/Users/skdso/AppData/Local/Programs/Antigravity/resources/app/out/vs/code/electron-browser/workbench/workbench.html [isAG: true, isQuokka: false, type: page]
+[12:56:22 PM] [CDP] >>> INJECTING into: antigravity-autopilot-extension - Antigravity - Task
+[12:56:22 PM] [CDP] Page: "Launchpad" URL: vscode-file://vscode-app/c:/Users/skdso/AppData/Local/Programs/Antigravity/resources/app/out/vs/code/electron-browser/workbench/workbench-jetski-agent.html [isAG: true, isQuokka: false, type: page]
+[12:56:22 PM] [CDP] >>> INJECTING into: Launchpad
+[12:56:22 PM] [CDP] Page: "" URL:  [isAG: false, isQuokka: false, type: worker]
+[12:56:22 PM] [CDP] Page: "" URL:  [isAG: false, isQuokka: false, type: worker]
+[12:56:22 PM] [CDP] Page: "" URL:  [isAG: false, isQuokka: false, type: worker]
+[12:56:22 PM] [CDP] Page: "" URL:  [isAG: false, isQuokka: false, type: worker]
+[12:56:22 PM] [CDP] Page: "" URL:  [isAG: false, isQuokka: false, type: worker]
+[12:56:24 PM] [CDP] Page: "[Extension Development Host] Antigravity" URL: vscode-file://vscode-app/c:/Users/skdso/AppData/Local/Programs/Antigravity/resources/app/out/vs/code/electron-browser/workbench/workbench.html [isAG: true, isQuokka: false, type: page]
+[12:56:24 PM] [CDP] >>> INJECTING into: [Extension Development Host] Antigravity
+[12:56:24 PM] [CDP] Page: "antigravity-autopilot-extension - Antigravity - Task" URL: vscode-file://vscode-app/c:/Users/skdso/AppData/Local/Programs/Antigravity/resources/app/out/vs/code/electron-browser/workbench/workbench.html [isAG: true, isQuokka: false, type: page]
+[12:56:24 PM] [CDP] >>> INJECTING into: antigravity-autopilot-extension - Antigravity - Task
+[12:56:24 PM] [CDP] Page: "Launchpad" URL: vscode-file://vscode-app/c:/Users/skdso/AppData/Local/Programs/Antigravity/resources/app/out/vs/code/electron-browser/workbench/workbench-jetski-agent.html [isAG: true, isQuokka: false, type: page]
+[12:56:24 PM] [CDP] >>> INJECTING into: Launchpad
+[12:56:24 PM] [CDP] Page: "" URL:  [isAG: false, isQuokka: false, type: worker]
+[12:56:24 PM] [CDP] Page: "" URL:  [isAG: false, isQuokka: false, type: worker]
+[12:56:24 PM] [CDP] Page: "" URL:  [isAG: false, isQuokka: false, type: worker]
+[12:56:24 PM] [CDP] Page: "" URL:  [isAG: false, isQuokka: false, type: worker]
+[12:56:24 PM] [CDP] Page: "" URL:  [isAG: false, isQuokka: false, type: worker]
+[12:56:26 PM] [CDP] Page: "[Extension Development Host] Antigravity" URL: vscode-file://vscode-app/c:/Users/skdso/AppData/Local/Programs/Antigravity/resources/app/out/vs/code/electron-browser/workbench/workbench.html [isAG: true, isQuokka: false, type: page]
+[12:56:26 PM] [CDP] >>> INJECTING into: [Extension Development Host] Antigravity
+[12:56:26 PM] [CDP] Page: "antigravity-autopilot-extension - Antigravity - Task" URL: vscode-file://vscode-app/c:/Users/skdso/AppData/Local/Programs/Antigravity/resources/app/out/vs/code/electron-browser/workbench/workbench.html [isAG: true, isQuokka: false, type: page]
+[12:56:26 PM] [CDP] >>> INJECTING into: antigravity-autopilot-extension - Antigravity - Task
+[12:56:26 PM] [CDP] Page: "Launchpad" URL: vscode-file://vscode-app/c:/Users/skdso/AppData/Local/Programs/Antigravity/resources/app/out/vs/code/electron-browser/workbench/workbench-jetski-agent.html [isAG: true, isQuokka: false, type: page]
+[12:56:26 PM] [CDP] >>> INJECTING into: Launchpad
+[12:56:26 PM] [CDP] Page: "" URL:  [isAG: false, isQuokka: false, type: worker]
+[12:56:26 PM] [CDP] Page: "" URL:  [isAG: false, isQuokka: false, type: worker]
+[12:56:26 PM] [CDP] Page: "" URL:  [isAG: false, isQuokka: false, type: worker]
+[12:56:26 PM] [CDP] Page: "" URL:  [isAG: false, isQuokka: false, type: worker]
+[12:56:26 PM] [CDP] Page: "" URL:  [isAG: false, isQuokka: false, type: worker]
+[12:56:28 PM] [CDP] Page: "[Extension Development Host] Antigravity" URL: vscode-file://vscode-app/c:/Users/skdso/AppData/Local/Programs/Antigravity/resources/app/out/vs/code/electron-browser/workbench/workbench.html [isAG: true, isQuokka: false, type: page]
+[12:56:28 PM] [CDP] >>> INJECTING into: [Extension Development Host] Antigravity
+[12:56:28 PM] [CDP] Page: "antigravity-autopilot-extension - Antigravity - Task" URL: vscode-file://vscode-app/c:/Users/skdso/AppData/Local/Programs/Antigravity/resources/app/out/vs/code/electron-browser/workbench/workbench.html [isAG: true, isQuokka: false, type: page]
+[12:56:28 PM] [CDP] >>> INJECTING into: antigravity-autopilot-extension - Antigravity - Task
+[12:56:28 PM] [CDP] Page: "Launchpad" URL: vscode-file://vscode-app/c:/Users/skdso/AppData/Local/Programs/Antigravity/resources/app/out/vs/code/electron-browser/workbench/workbench-jetski-agent.html [isAG: true, isQuokka: false, type: page]
+[12:56:28 PM] [CDP] >>> INJECTING into: Launchpad
+[12:56:28 PM] [CDP] Page: "" URL:  [isAG: false, isQuokka: false, type: worker]
+[12:56:28 PM] [CDP] Page: "" URL:  [isAG: false, isQuokka: false, type: worker]
+[12:56:28 PM] [CDP] Page: "" URL:  [isAG: false, isQuokka: false, type: worker]
+[12:56:28 PM] [CDP] Page: "" URL:  [isAG: false, isQuokka: false, type: worker]
+[12:56:28 PM] [CDP] Page: "" URL:  [isAG: false, isQuokka: false, type: worker]
+[12:56:30 PM] [CDP] Page: "[Extension Development Host] Antigravity" URL: vscode-file://vscode-app/c:/Users/skdso/AppData/Local/Programs/Antigravity/resources/app/out/vs/code/electron-browser/workbench/workbench.html [isAG: true, isQuokka: false, type: page]
+[12:56:30 PM] [CDP] >>> INJECTING into: [Extension Development Host] Antigravity
+[12:56:31 PM] [CDP] Page: "antigravity-autopilot-extension - Antigravity - Task" URL: vscode-file://vscode-app/c:/Users/skdso/AppData/Local/Programs/Antigravity/resources/app/out/vs/code/electron-browser/workbench/workbench.html [isAG: true, isQuokka: false, type: page]
+[12:56:31 PM] [CDP] >>> INJECTING into: antigravity-autopilot-extension - Antigravity - Task
+[12:56:31 PM] [CDP] Page: "Launchpad" URL: vscode-file://vscode-app/c:/Users/skdso/AppData/Local/Programs/Antigravity/resources/app/out/vs/code/electron-browser/workbench/workbench-jetski-agent.html [isAG: true, isQuokka: false, type: page]
+[12:56:31 PM] [CDP] >>> INJECTING into: Launchpad
+[12:56:31 PM] [CDP] Page: "" URL:  [isAG: false, isQuokka: false, type: worker]
+[12:56:31 PM] [CDP] Page: "" URL:  [isAG: false, isQuokka: false, type: worker]
+[12:56:31 PM] [CDP] Page: "" URL:  [isAG: false, isQuokka: false, type: worker]
+[12:56:31 PM] [CDP] Page: "" URL:  [isAG: false, isQuokka: false, type: worker]
+[12:56:31 PM] [CDP] Page: "" URL:  [isAG: false, isQuokka: false, type: worker]
+[12:56:32 PM] [CDP] Page: "[Extension Development Host] Antigravity" URL: vscode-file://vscode-app/c:/Users/skdso/AppData/Local/Programs/Antigravity/resources/app/out/vs/code/electron-browser/workbench/workbench.html [isAG: true, isQuokka: false, type: page]
+[12:56:32 PM] [CDP] >>> INJECTING into: [Extension Development Host] Antigravity
+[12:56:32 PM] [CDP] Page: "antigravity-autopilot-extension - Antigravity - Task" URL: vscode-file://vscode-app/c:/Users/skdso/AppData/Local/Programs/Antigravity/resources/app/out/vs/code/electron-browser/workbench/workbench.html [isAG: true, isQuokka: false, type: page]
+[12:56:32 PM] [CDP] >>> INJECTING into: antigravity-autopilot-extension - Antigravity - Task
+[12:56:32 PM] [CDP] Page: "Launchpad" URL: vscode-file://vscode-app/c:/Users/skdso/AppData/Local/Programs/Antigravity/resources/app/out/vs/code/electron-browser/workbench/workbench-jetski-agent.html [isAG: true, isQuokka: false, type: page]
+[12:56:32 PM] [CDP] >>> INJECTING into: Launchpad
+[12:56:32 PM] [CDP] Page: "" URL:  [isAG: false, isQuokka: false, type: worker]
+[12:56:32 PM] [CDP] Page: "" URL:  [isAG: false, isQuokka: false, type: worker]
+[12:56:32 PM] [CDP] Page: "" URL:  [isAG: false, isQuokka: false, type: worker]
+[12:56:32 PM] [CDP] Page: "" URL:  [isAG: false, isQuokka: false, type: worker]
+[12:56:32 PM] [CDP] Page: "" URL:  [isAG: false, isQuokka: false, type: worker]
+[12:56:34 PM] [CDP] Page: "[Extension Development Host] Antigravity" URL: vscode-file://vscode-app/c:/Users/skdso/AppData/Local/Programs/Antigravity/resources/app/out/vs/code/electron-browser/workbench/workbench.html [isAG: true, isQuokka: false, type: page]
+[12:56:34 PM] [CDP] >>> INJECTING into: [Extension Development Host] Antigravity
+[12:56:34 PM] [CDP] Page: "antigravity-autopilot-extension - Antigravity - Task" URL: vscode-file://vscode-app/c:/Users/skdso/AppData/Local/Programs/Antigravity/resources/app/out/vs/code/electron-browser/workbench/workbench.html [isAG: true, isQuokka: false, type: page]
+[12:56:34 PM] [CDP] >>> INJECTING into: antigravity-autopilot-extension - Antigravity - Task
+[12:56:34 PM] [CDP] Page: "Launchpad" URL: vscode-file://vscode-app/c:/Users/skdso/AppData/Local/Programs/Antigravity/resources/app/out/vs/code/electron-browser/workbench/workbench-jetski-agent.html [isAG: true, isQuokka: false, type: page]
+[12:56:34 PM] [CDP] >>> INJECTING into: Launchpad
+[12:56:34 PM] [CDP] Page: "" URL:  [isAG: false, isQuokka: false, type: worker]
+[12:56:34 PM] [CDP] Page: "" URL:  [isAG: false, isQuokka: false, type: worker]
+[12:56:34 PM] [CDP] Page: "" URL:  [isAG: false, isQuokka: false, type: worker]
+[12:56:34 PM] [CDP] Page: "" URL:  [isAG: false, isQuokka: false, type: worker]
+[12:56:34 PM] [CDP] Page: "" URL:  [isAG: false, isQuokka: false, type: worker]
+[12:56:36 PM] [CDP] Page: "[Extension Development Host] Antigravity" URL: vscode-file://vscode-app/c:/Users/skdso/AppData/Local/Programs/Antigravity/resources/app/out/vs/code/electron-browser/workbench/workbench.html [isAG: true, isQuokka: false, type: page]
+[12:56:36 PM] [CDP] >>> INJECTING into: [Extension Development Host] Antigravity
+[12:56:36 PM] [CDP] Page: "antigravity-autopilot-extension - Antigravity - Task" URL: vscode-file://vscode-app/c:/Users/skdso/AppData/Local/Programs/Antigravity/resources/app/out/vs/code/electron-browser/workbench/workbench.html [isAG: true, isQuokka: false, type: page]
+[12:56:36 PM] [CDP] >>> INJECTING into: antigravity-autopilot-extension - Antigravity - Task
+[12:56:36 PM] [CDP] Page: "Launchpad" URL: vscode-file://vscode-app/c:/Users/skdso/AppData/Local/Programs/Antigravity/resources/app/out/vs/code/electron-browser/workbench/workbench-jetski-agent.html [isAG: true, isQuokka: false, type: page]
+[12:56:36 PM] [CDP] >>> INJECTING into: Launchpad
+[12:56:36 PM] [CDP] Page: "" URL:  [isAG: false, isQuokka: false, type: worker]
+[12:56:36 PM] [CDP] Page: "" URL:  [isAG: false, isQuokka: false, type: worker]
+[12:56:36 PM] [CDP] Page: "" URL:  [isAG: false, isQuokka: false, type: worker]
+[12:56:36 PM] [CDP] Page: "" URL:  [isAG: false, isQuokka: false, type: worker]
+[12:56:36 PM] [CDP] Page: "" URL:  [isAG: false, isQuokka: false, type: worker]
+[12:56:38 PM] [CDP] Page: "[Extension Development Host] Antigravity" URL: vscode-file://vscode-app/c:/Users/skdso/AppData/Local/Programs/Antigravity/resources/app/out/vs/code/electron-browser/workbench/workbench.html [isAG: true, isQuokka: false, type: page]
+[12:56:38 PM] [CDP] >>> INJECTING into: [Extension Development Host] Antigravity
+[12:56:38 PM] [CDP] Page: "antigravity-autopilot-extension - Antigravity - Task" URL: vscode-file://vscode-app/c:/Users/skdso/AppData/Local/Programs/Antigravity/resources/app/out/vs/code/electron-browser/workbench/workbench.html [isAG: true, isQuokka: false, type: page]
+[12:56:38 PM] [CDP] >>> INJECTING into: antigravity-autopilot-extension - Antigravity - Task
+[12:56:38 PM] [CDP] Page: "Launchpad" URL: vscode-file://vscode-app/c:/Users/skdso/AppData/Local/Programs/Antigravity/resources/app/out/vs/code/electron-browser/workbench/workbench-jetski-agent.html [isAG: true, isQuokka: false, type: page]
+[12:56:38 PM] [CDP] >>> INJECTING into: Launchpad
+[12:56:38 PM] [CDP] Page: "" URL:  [isAG: false, isQuokka: false, type: worker]
+[12:56:38 PM] [CDP] Page: "" URL:  [isAG: false, isQuokka: false, type: worker]
+[12:56:38 PM] [CDP] Page: "" URL:  [isAG: false, isQuokka: false, type: worker]
+[12:56:38 PM] [CDP] Page: "" URL:  [isAG: false, isQuokka: false, type: worker]
+[12:56:38 PM] [CDP] Page: "" URL:  [isAG: false, isQuokka: false, type: worker]
+[12:56:40 PM] [CDP] Page: "[Extension Development Host] Antigravity" URL: vscode-file://vscode-app/c:/Users/skdso/AppData/Local/Programs/Antigravity/resources/app/out/vs/code/electron-browser/workbench/workbench.html [isAG: true, isQuokka: false, type: page]
+[12:56:40 PM] [CDP] >>> INJECTING into: [Extension Development Host] Antigravity
+[12:56:40 PM] [CDP] Page: "antigravity-autopilot-extension - Antigravity - Task" URL: vscode-file://vscode-app/c:/Users/skdso/AppData/Local/Programs/Antigravity/resources/app/out/vs/code/electron-browser/workbench/workbench.html [isAG: true, isQuokka: false, type: page]
+[12:56:40 PM] [CDP] >>> INJECTING into: antigravity-autopilot-extension - Antigravity - Task
+[12:56:40 PM] [CDP] Page: "Launchpad" URL: vscode-file://vscode-app/c:/Users/skdso/AppData/Local/Programs/Antigravity/resources/app/out/vs/code/electron-browser/workbench/workbench-jetski-agent.html [isAG: true, isQuokka: false, type: page]
+[12:56:40 PM] [CDP] >>> INJECTING into: Launchpad
+[12:56:40 PM] [CDP] Page: "" URL:  [isAG: false, isQuokka: false, type: worker]
+[12:56:40 PM] [CDP] Page: "" URL:  [isAG: false, isQuokka: false, type: worker]
+[12:56:40 PM] [CDP] Page: "" URL:  [isAG: false, isQuokka: false, type: worker]
+[12:56:40 PM] [CDP] Page: "" URL:  [isAG: false, isQuokka: false, type: worker]
+[12:56:40 PM] [CDP] Page: "" URL:  [isAG: false, isQuokka: false, type: worker]
+[12:56:42 PM] [CDP] Page: "[Extension Development Host] Antigravity" URL: vscode-file://vscode-app/c:/Users/skdso/AppData/Local/Programs/Antigravity/resources/app/out/vs/code/electron-browser/workbench/workbench.html [isAG: true, isQuokka: false, type: page]
+[12:56:42 PM] [CDP] >>> INJECTING into: [Extension Development Host] Antigravity
+[12:56:42 PM] [CDP] Page: "antigravity-autopilot-extension - Antigravity - Task" URL: vscode-file://vscode-app/c:/Users/skdso/AppData/Local/Programs/Antigravity/resources/app/out/vs/code/electron-browser/workbench/workbench.html [isAG: true, isQuokka: false, type: page]
+[12:56:42 PM] [CDP] >>> INJECTING into: antigravity-autopilot-extension - Antigravity - Task
+[12:56:42 PM] [CDP] Page: "Launchpad" URL: vscode-file://vscode-app/c:/Users/skdso/AppData/Local/Programs/Antigravity/resources/app/out/vs/code/electron-browser/workbench/workbench-jetski-agent.html [isAG: true, isQuokka: false, type: page]
+[12:56:42 PM] [CDP] >>> INJECTING into: Launchpad
+[12:56:42 PM] [CDP] Page: "" URL:  [isAG: false, isQuokka: false, type: worker]
+[12:56:42 PM] [CDP] Page: "" URL:  [isAG: false, isQuokka: false, type: worker]
+[12:56:42 PM] [CDP] Page: "" URL:  [isAG: false, isQuokka: false, type: worker]
+[12:56:42 PM] [CDP] Page: "" URL:  [isAG: false, isQuokka: false, type: worker]
+[12:56:42 PM] [CDP] Page: "" URL:  [isAG: false, isQuokka: false, type: worker]
+[12:56:42 PM] Auto-Pilot monitoring stopped.

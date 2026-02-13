@@ -59,7 +59,10 @@ class CDPHandler {
 
                     if (isAntigravity && page.type === 'page') {
                         this.log(`>>> INJECTING into: ${page.title}`);
-                        await this._evaluate(page.webSocketDebuggerUrl, script);
+                        const result = await this._evaluate(page.webSocketDebuggerUrl, script);
+                        if (result && result.result && result.result.value) {
+                            this.log(`Result from ${page.title}: ${result.result.value}`);
+                        }
                     }
                 }
             } catch (e) {
