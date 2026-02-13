@@ -1,0 +1,54 @@
+This is a dummy file for testing the Antigravity Auto-Pilot extension.
+Initial content: Hello World.
+Update: Adding some more text to trigger the "Accept File Change" auto-completion.
+Autopilot should detect the "Accept" or "Apply" buttons in the UI.
+
+// Dummy code for testing
+function testAccept() {
+    console.log("Testing the auto-accept feature of the Antigravity Auto-Pilot extension.");
+    return true;
+}
+
+testAccept();
+
+// Adding more content for "Accept All" testing
+function moreTesting() {
+    const message = "This is a test of the automatic acceptance of file changes.";
+    const status = "Success";
+    console.log(`${message} Status: ${status}`);
+}
+
+moreTesting();
+
+/*
+    Additional multi-line comment to increase file size
+    and provide more content for the tool to process.
+    The goal is to ensure the "Accept All" logic is 
+    robustly tested across different types of file modifications.
+*/
+
+const testArray = [1, 2, 3, 4, 5];
+testArray.forEach(item => {
+    console.log("Processing item:", item);
+});
+
+// Stress testing "Accept All" with more lines
+for (let i = 0; i < 10; i++) {
+    console.log("Loop iteration:", i);
+}
+
+const config = {
+    port: 9222,
+    host: "localhost",
+    verbose: true
+};
+
+function logConfig(c) {
+    Object.keys(c).forEach(key => {
+        console.log(`${key}: ${c[key]}`);
+    });
+}
+
+logConfig(config);
+
+console.log("Final line of the expanded dummy test file.");

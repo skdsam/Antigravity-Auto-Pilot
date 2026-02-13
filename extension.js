@@ -29,7 +29,19 @@ async function activate(context) {
     outputChannel = vscode.window.createOutputChannel('Auto-Pilot');
     log('Auto-Pilot extension activating...');
 
+    // Attempt to suppress Quokka welcome page
+    try {
+        const config = vscode.workspace.getConfiguration('quokka');
+        if (config.get('showWelcomePage') !== false) {
+            await config.update('showWelcomePage', false, vscode.ConfigurationTarget.Global);
+            log('Suppressed Quokka welcome page in settings.');
+        }
+    } catch (e) {
+        log(`Failed to suppress Quokka welcome page: ${e.message}`);
+    }
+
     statusBarItem = vscode.window.createStatusBarItem(vscode.StatusBarAlignment.Right, 100);
+
     statusBarItem.command = 'antigravity-autopilot.toggle';
     context.subscriptions.push(statusBarItem);
     updateStatusBar();

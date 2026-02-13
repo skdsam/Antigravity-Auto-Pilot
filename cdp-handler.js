@@ -35,14 +35,30 @@ class CDPHandler {
         for (const port of this.targetPorts) {
             try {
                 const pages = await this._getPages(port);
-                if (pages.length > 0) {
-                    this.log(`Found ${pages.length} pages on port ${port}`);
-                }
                 for (const page of pages) {
-                    this.log(`Checking page: ${page.title} (${page.url})`);
-                    // Check if it's an Antigravity window or an agent-related view
-                    if (page.title.includes('Antigravity') || page.url.includes('agent') || page.type === 'page') {
-                        this.log(`Injecting into: ${page.title}`);
+                    const title = (page.title || '').toLowerCase();
+                    const url = (page.url || '').toLowerCase();
+
+                    // Refined Quokka detection
+                    const isQuokka = title.includes('quokka') ||
+                        url.includes('quokka') ||
+                        url.includes('wallabyjs');
+
+                    // Refined Antigravity detection - more permissive for local development
+                    const isAntigravity = (
+                        title.includes('antigravity') ||
+                        url.includes('antigravity.ai') ||
+                        url.includes('localhost') ||
+                        url.includes('127.0.0.1') ||
+                        // If it's a page and not quokka/extension, it's likely our target in this context
+                        (page.type === 'page' && !title.includes('extension') && !url.includes('extension'))
+                    ) && !isQuokka;
+
+                    // Log every page we see for diagnostics
+                    this.log(`Page: "${page.title}" URL: ${page.url} [isAG: ${isAntigravity}, isQuokka: ${isQuokka}, type: ${page.type}]`);
+
+                    if (isAntigravity && page.type === 'page') {
+                        this.log(`>>> INJECTING into: ${page.title}`);
                         await this._evaluate(page.webSocketDebuggerUrl, script);
                     }
                 }
