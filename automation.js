@@ -35,7 +35,7 @@
     ];
 
     function isDangerous(text) {
-        const lowerText = text.toLowerCase();
+        const lowerText = (text || '').toLowerCase();
         return dangerousCommands.some(cmd => lowerText.includes(cmd));
     }
 
@@ -88,7 +88,6 @@
                 curr.classList.contains('statusbar') ||
                 curr.classList.contains('menubar') ||
                 curr.classList.contains('titlebar') ||
-                curr.classList.contains('tabs-container') ||
                 curr.id === 'workbench.parts.activitybar' ||
                 curr.id === 'workbench.parts.statusbar'
             )) {
@@ -111,8 +110,14 @@
 
         if (!matchesPattern) return false;
         
-        // Final sanity check: avoid obviously navigation-related buttons
-        if (text.includes('extensions') || text.includes('search') || text.includes('debug') || text.includes('source control')) {
+        // Contextual safety check: avoid obviously navigation-related buttons
+        const isNavigation = ['extensions', 'search', 'debug', 'source control', 'explorer', 'remote explorer'].some(nav => {
+            // Only match if the button text is exactly the navigation item name
+            // or if it's a short label that starts with it.
+            return text === nav || (text.startsWith(nav) && text.length < nav.length + 3);
+        });
+        
+        if (isNavigation && !text.includes('all') && !text.includes('accept') && !text.includes('apply')) {
             return false;
         }
 
@@ -143,8 +148,8 @@
         'span[class*="button"]',
         'div[class*="button"]',
         '[aria-label*="accept"]',
-        '[aria-label*="apply"]'
-        // Removed [aria-label*="all"] as it's too broad (matches "Clear All", etc.)
+        '[aria-label*="apply"]',
+        '[aria-label*="all"]'
     ];
 
     const allElements = getAllElements();
@@ -163,7 +168,7 @@
     // Strategy 1: Look for Priority "All" buttons
     let target = buttons.find(el => {
         const text = (el.textContent || el.getAttribute('aria-label') || '').toLowerCase();
-        const isPriority = priorityPatterns.some(pp => text.includes(pp));
+        const isPriority = priorityPatterns.some(pp => text.includes(pp.toLowerCase()));
         return isPriority && isAcceptButton(el);
     });
 

@@ -48,14 +48,12 @@ class CDPHandler {
                     const isWorkbench = url.includes('workbench.html') || url.includes('workbench-jetski-agent.html');
                     const isDevHost = title.includes('[extension development host]');
                     
-                    // We want to target:
-                    // 1. Explicitly named "Launchpad" or "Antigravity" standalone pages
-                    // 2. Extension Development Host windows
-                    // 3. Localhost/CDP targets that are not the main VS Code IDE
+                    // We want to target Antigravity-related windows and pages.
+                    // The main workbench is often titled "Antigravity" or contains the project name.
                     const isAntigravity = !isQuokka && (
-                        ( (title.includes('launchpad') || title.includes('antigravity')) && 
-                          (isDevHost || !isWorkbench || title.includes('launchpad')) ) || 
-                        (isURLTarget && !isWorkbench)
+                        title.includes('launchpad') || 
+                        title.includes('antigravity') || 
+                        isURLTarget
                     );
 
                     // Log every page we see for diagnostics
