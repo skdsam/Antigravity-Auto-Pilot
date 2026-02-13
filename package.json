@@ -3,7 +3,7 @@
     "displayName": "Antigravity Auto-Pilot",
     "description": "Automatically accept agent prompts to streamline your workflow.",
     "icon": "autopilot.png",
-    "version": "0.1.10",
+    "version": "0.1.11",
     "publisher": "Developer",
     "license": "MIT",
     "repository": {

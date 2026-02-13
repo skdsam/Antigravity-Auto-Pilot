@@ -78,19 +78,43 @@
         const isVisible = style.display !== 'none' && style.visibility !== 'hidden' && style.opacity !== '0';
         const isInteractable = !el.disabled && el.getAttribute('aria-disabled') !== 'true';
 
-        if (!isVisible || !isInteractable) {
-            if (verbose && (el.textContent || el.getAttribute('aria-label'))) {
-                // log(`Skipping non-interactable: "${el.textContent}" [visible: ${isVisible}, interactable: ${isInteractable}]`);
+        if (!isVisible || !isInteractable) return false;
+
+        // Skip if it's part of VS Code system UI (Activity Bar, Status Bar, etc.)
+        let curr = el;
+        while (curr && curr !== document.body) {
+            if (curr.classList && (
+                curr.classList.contains('activitybar') ||
+                curr.classList.contains('statusbar') ||
+                curr.classList.contains('menubar') ||
+                curr.classList.contains('titlebar') ||
+                curr.classList.contains('tabs-container') ||
+                curr.id === 'workbench.parts.activitybar' ||
+                curr.id === 'workbench.parts.statusbar'
+            )) {
+                return false;
             }
-            return false;
+            curr = curr.parentElement || (curr.getRootNode && curr.getRootNode().host);
         }
 
         const text = (el.textContent || el.getAttribute('aria-label') || el.value || el.title || '').trim().toLowerCase();
         if (!text) return false;
 
         // Check if button matches any of our patterns
-        const matchesPattern = patterns.some(p => text === p || text.includes(p));
+        const matchesPattern = patterns.some(p => {
+            // Strict matching for very short words to avoid "Run and Debug" matching "run"
+            if (p === 'run' || p === 'ok' || p === 'yes') {
+                return text === p;
+            }
+            return text === p || text.includes(p);
+        });
+
         if (!matchesPattern) return false;
+        
+        // Final sanity check: avoid obviously navigation-related buttons
+        if (text.includes('extensions') || text.includes('search') || text.includes('debug') || text.includes('source control')) {
+            return false;
+        }
 
         // Contextual safety check - more targeted
         const container = el.parentElement;
@@ -119,8 +143,8 @@
         'span[class*="button"]',
         'div[class*="button"]',
         '[aria-label*="accept"]',
-        '[aria-label*="apply"]',
-        '[aria-label*="all"]'
+        '[aria-label*="apply"]'
+        // Removed [aria-label*="all"] as it's too broad (matches "Clear All", etc.)
     ];
 
     const allElements = getAllElements();
@@ -135,11 +159,6 @@
             (el.getAttribute('role') === 'button') ||
             hasPointerCursor;
     });
-
-    // Diagnostic logging - only if we found something
-    // if (buttons.length > 0) {
-    //     log(`Found ${buttons.length} potential buttons.`);
-    // }
 
     // Strategy 1: Look for Priority "All" buttons
     let target = buttons.find(el => {
@@ -160,6 +179,5 @@
         return `Clicked: ${label}`;
     }
 
-    // return "No actionable buttons found";
     return null;
 })();

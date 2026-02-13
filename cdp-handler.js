@@ -39,23 +39,27 @@ class CDPHandler {
                     const title = (page.title || '').toLowerCase();
                     const url = (page.url || '').toLowerCase();
 
-                    // Refined Quokka detection
-                    const isQuokka = title.includes('quokka') ||
-                        url.includes('quokka') ||
-                        url.includes('wallabyjs');
+                    // Refined target detection
+                    const isQuokka = title.includes('quokka') || url.includes('quokka') || url.includes('wallabyjs');
+                    const isURLTarget = url.includes('antigravity.ai') || 
+                                      url.includes('localhost') || 
+                                      url.includes('127.0.0.1');
 
-                    // Refined Antigravity detection - more permissive for local development
-                    const isAntigravity = (
-                        title.includes('antigravity') ||
-                        url.includes('antigravity.ai') ||
-                        url.includes('localhost') ||
-                        url.includes('127.0.0.1') ||
-                        // If it's a page and not quokka/extension, it's likely our target in this context
-                        (page.type === 'page' && !title.includes('extension') && !url.includes('extension'))
-                    ) && !isQuokka;
+                    const isWorkbench = url.includes('workbench.html') || url.includes('workbench-jetski-agent.html');
+                    const isDevHost = title.includes('[extension development host]');
+                    
+                    // We want to target:
+                    // 1. Explicitly named "Launchpad" or "Antigravity" standalone pages
+                    // 2. Extension Development Host windows
+                    // 3. Localhost/CDP targets that are not the main VS Code IDE
+                    const isAntigravity = !isQuokka && (
+                        ( (title.includes('launchpad') || title.includes('antigravity')) && 
+                          (isDevHost || !isWorkbench || title.includes('launchpad')) ) || 
+                        (isURLTarget && !isWorkbench)
+                    );
 
                     // Log every page we see for diagnostics
-                    this.log(`Page: "${page.title}" URL: ${page.url} [isAG: ${isAntigravity}, isQuokka: ${isQuokka}, type: ${page.type}]`);
+                    this.log(`Page: "${page.title}" [type: ${page.type}, isAG: ${isAntigravity}, isWork: ${isWorkbench}, isDev: ${isDevHost}]`);
 
                     if (isAntigravity && page.type === 'page') {
                         this.log(`>>> INJECTING into: ${page.title}`);
