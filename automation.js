@@ -21,7 +21,10 @@
     ];
 
     // Priority patterns - we want to click "All" versions first
-    const priorityPatterns = ['accept all', 'apply all', 'approve all', 'accept changes'];
+    const priorityPatterns = [
+        'accept all', 'apply all', 'approve all', 'accept changes',
+        'accept all content', 'apply all changes', 'approve all changes'
+    ];
 
     // Dangerous command blocklist
     const dangerousCommands = [
@@ -36,7 +39,7 @@
         return dangerousCommands.some(cmd => lowerText.includes(cmd));
     }
 
-    // Shadow DOM traversal helper
+    // shadow DOM traversal helper
     function getAllElements(root = document) {
         let elements = Array.from(root.querySelectorAll('*'));
         const shadowElements = [];
@@ -50,23 +53,32 @@
         return elements.concat(shadowElements);
     }
 
-    function isAcceptButton(el) {
+    function isAcceptButton(el, verbose = false) {
         // Skip if hidden or disabled
         const style = window.getComputedStyle(el);
-        if (style.display === 'none' || style.visibility === 'hidden' || el.disabled) return false;
+        const isVisible = style.display !== 'none' && style.visibility !== 'hidden' && style.opacity !== '0';
+        const isInteractable = !el.disabled && el.getAttribute('aria-disabled') !== 'true';
 
-        const text = (el.textContent || el.getAttribute('aria-label') || el.value || '').trim().toLowerCase();
+        if (!isVisible || !isInteractable) {
+            if (verbose && (el.textContent || el.getAttribute('aria-label'))) {
+                // log(`Skipping non-interactable: "${el.textContent}" [visible: ${isVisible}, interactable: ${isInteractable}]`);
+            }
+            return false;
+        }
+
+        const text = (el.textContent || el.getAttribute('aria-label') || el.value || el.title || '').trim().toLowerCase();
         if (!text) return false;
 
         // Check if button matches any of our patterns
-        if (!patterns.some(p => text.includes(p))) return false;
+        const matchesPattern = patterns.some(p => text === p || text.includes(p));
+        if (!matchesPattern) return false;
 
-        // Contextual safety check
-        const container = el.closest('div, section, article, .bg-ide-card-background');
+        // Contextual safety check - more targeted
+        const container = el.parentElement;
         if (container) {
             const containerText = container.textContent.toLowerCase();
-            if (isDangerous(containerText)) {
-                log(`SAFETY BLOCK: Dangerous pattern detected in context: "${containerText.substring(0, 50)}..."`);
+            if (isDangerous(containerText) && !text.includes('all')) {
+                log(`SAFETY BLOCK: Dangerous pattern detected in immediate context: "${containerText.substring(0, 50)}..."`);
                 return false;
             }
         }
@@ -84,27 +96,42 @@
         'input[type="submit"]',
         '.btn',
         '.button',
+        'a[class*="button"]',
+        'span[class*="button"]',
+        'div[class*="button"]',
         '[aria-label*="accept"]',
-        '[aria-label*="apply"]'
+        '[aria-label*="apply"]',
+        '[aria-label*="all"]'
     ];
 
     const allElements = getAllElements();
     const buttons = allElements.filter(el => {
         if (!el.matches) return false;
+
+        const style = window.getComputedStyle(el);
+        const hasPointerCursor = style.cursor === 'pointer';
+
         return selectors.some(s => el.matches(s)) ||
             (el.tagName === 'DIV' && el.classList.contains('button')) ||
-            (el.getAttribute('role') === 'button');
+            (el.getAttribute('role') === 'button') ||
+            hasPointerCursor;
     });
+
+    // Diagnostic logging
+    if (buttons.length > 0) {
+        // log(`Found ${buttons.length} potential buttons.`);
+    }
 
     // Strategy 1: Look for Priority "All" buttons
     let target = buttons.find(el => {
         const text = (el.textContent || el.getAttribute('aria-label') || '').toLowerCase();
-        return priorityPatterns.some(pp => text.includes(pp)) && isAcceptButton(el);
+        const isPriority = priorityPatterns.some(pp => text.includes(pp));
+        return isPriority && isAcceptButton(el);
     });
 
     // Strategy 2: Look for any Accept button
     if (!target) {
-        target = buttons.find(isAcceptButton);
+        target = buttons.find(el => isAcceptButton(el));
     }
 
     if (target) {
