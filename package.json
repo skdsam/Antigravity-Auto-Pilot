@@ -1,0 +1,40 @@
+{
+    "name": "antigravity-autopilot",
+    "displayName": "Antigravity Auto-Pilot",
+    "description": "Automatically accept agent prompts to streamline your workflow.",
+    "version": "0.1.1",
+    "publisher": "Developer",
+    "license": "MIT",
+    "repository": {
+        "type": "git",
+        "url": "https://github.com/skdsam/Antigravity-Auto-Pilot"
+    },
+    "engines": {
+        "vscode": "^1.75.0"
+    },
+    "categories": [
+        "Other"
+    ],
+    "activationEvents": [
+        "onStartupFinished"
+    ],
+    "main": "./extension.js",
+    "contributes": {
+        "commands": [
+            {
+                "command": "antigravity-autopilot.toggle",
+                "title": "Auto-Pilot: Toggle ON/OFF"
+            }
+        ],
+        "status": [
+            {
+                "id": "antigravity-autopilot.status",
+                "alignment": "right",
+                "priority": 100
+            }
+        ]
+    },
+    "dependencies": {
+        "ws": "^8.19.0"
+    }
+}
