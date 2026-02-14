@@ -44,18 +44,26 @@ async function activate(context) {
 
     statusBarItem.command = 'antigravity-autopilot.toggle';
     context.subscriptions.push(statusBarItem);
+    // Restore state from previous session
+    isEnabled = context.globalState.get('autopilot.isEnabled', false);
     updateStatusBar();
     statusBarItem.show();
 
     context.subscriptions.push(
-        vscode.commands.registerCommand('antigravity-autopilot.toggle', () => handleToggle())
+        vscode.commands.registerCommand('antigravity-autopilot.toggle', () => handleToggle(context))
     );
+
+    if (isEnabled) {
+        log('Restoring Auto-Pilot state: ON');
+        startPolling();
+    }
 
     log('Activation complete.');
 }
 
-async function handleToggle() {
+async function handleToggle(context) {
     isEnabled = !isEnabled;
+    await context.globalState.update('autopilot.isEnabled', isEnabled);
     updateStatusBar();
 
     if (isEnabled) {
@@ -69,6 +77,7 @@ async function handleToggle() {
             log('CDP not available. Prompting user.');
             await relauncher.ensureCDPAndRelaunch();
             isEnabled = false;
+            await context.globalState.update('autopilot.isEnabled', isEnabled);
             updateStatusBar();
         }
     } else {
