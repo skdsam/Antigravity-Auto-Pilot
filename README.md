@@ -13,7 +13,7 @@
 
 ## 🛠️ How it Works
 
-Auto-Pilot connects to the Antigravity frontend using the **Chrome DevTools Protocol (CDP)**. It scans active ports (9000/9222) and safely injects an automation script into authorized targets.
+Auto-Pilot connects to the Antigravity frontend using the **Chrome DevTools Protocol (CDP)**. It scans active ports (9000, 9222-9236) and safely injects an automation script into authorized targets.
 
 ## 🚀 Getting Started
 

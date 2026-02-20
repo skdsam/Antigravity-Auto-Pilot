@@ -6,7 +6,9 @@ class CDPHandler {
         this.logger = logger;
         this.connections = new Map(); // id -> ws
         this.msgId = 1;
-        this.targetPorts = [9000, 9222];
+        this.targetPorts = [9000, ...Array.from({
+            length: 15
+        }, (_, i) => 9222 + i)];
     }
 
     log(msg) {
@@ -14,8 +16,8 @@ class CDPHandler {
     }
 
     async isCDPAvailable() {
-        for (const port of this.targetPorts) {
-            const available = await new Promise((resolve) => {
+        const checks = this.targetPorts.map(port => {
+            return new Promise((resolve) => {
                 const req = http.get({
                     hostname: '127.0.0.1',
                     port,
@@ -25,14 +27,19 @@ class CDPHandler {
                     resolve(res.statusCode === 200);
                 });
                 req.on('error', () => resolve(false));
+                req.on('timeout', () => {
+                    req.destroy();
+                    resolve(false);
+                });
             });
-            if (available) return true;
-        }
-        return false;
+        });
+
+        const results = await Promise.all(checks);
+        return results.some(available => available);
     }
 
     async scanAndInject(script) {
-        for (const port of this.targetPorts) {
+        await Promise.all(this.targetPorts.map(async (port) => {
             try {
                 const pages = await this._getPages(port);
                 for (const page of pages) {
@@ -41,18 +48,18 @@ class CDPHandler {
 
                     // Refined target detection
                     const isQuokka = title.includes('quokka') || url.includes('quokka') || url.includes('wallabyjs');
-                    const isURLTarget = url.includes('antigravity.ai') || 
-                                      url.includes('localhost') || 
-                                      url.includes('127.0.0.1');
+                    const isURLTarget = url.includes('antigravity.ai') ||
+                        url.includes('localhost') ||
+                        url.includes('127.0.0.1');
 
                     const isWorkbench = url.includes('workbench.html') || url.includes('workbench-jetski-agent.html');
                     const isDevHost = title.includes('[extension development host]');
-                    
+
                     // We want to target Antigravity-related windows and pages.
                     // The main workbench is often titled "Antigravity" or contains the project name.
                     const isAntigravity = !isQuokka && (
-                        title.includes('launchpad') || 
-                        title.includes('antigravity') || 
+                        title.includes('launchpad') ||
+                        title.includes('antigravity') ||
                         isURLTarget
                     );
 
@@ -70,7 +77,7 @@ class CDPHandler {
             } catch (e) {
                 this.log(`Error scanning port ${port}: ${e.message}`);
             }
-        }
+        }));
     }
 
     async _getPages(port) {

@@ -12,7 +12,7 @@ class Relauncher {
 
     async ensureCDPAndRelaunch() {
         const choice = await vscode.window.showInformationMessage(
-            'Auto-Pilot couldn\'t connect to Antigravity (ports 9000/9222). Please ensure Antigravity is running or restart it with the remote debugging flag.',
+            'Auto-Pilot couldn\'t connect to Antigravity (ports 9000/9222/9223). Please ensure Antigravity is running or restart it with the remote debugging flag.',
             'Open README', 'Cancel'
         );
 
