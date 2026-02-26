@@ -1,5 +1,8 @@
 # 🚀 Antigravity Auto-Pilot
 
+> [!NOTE]
+> Test Trigger: 2026-02-26 11:58:22
+
 **Antigravity Auto-Pilot** is a powerful VS Code extension designed to streamline your multi-agent workflow by automatically managing agent prompts. No more manual clicking—let Auto-Pilot handle the routine while you stay in the flow.
 
 ## ✨ Key Features
