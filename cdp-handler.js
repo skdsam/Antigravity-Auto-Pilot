@@ -6,9 +6,9 @@ class CDPHandler {
         this.logger = logger;
         this.connections = new Map(); // id -> ws
         this.msgId = 1;
-        this.targetPorts = [9000, ...Array.from({
+        this.targetPorts = [9000, 9222, 9223, 9224, 9333, 9444, ...Array.from({
             length: 15
-        }, (_, i) => 9222 + i)];
+        }, (_, i) => 20000 + i)];
     }
 
     log(msg) {

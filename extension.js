@@ -74,8 +74,25 @@ async function handleToggle(context) {
             log('CDP available. Starting polling.');
             startPolling();
         } else {
-            log('CDP not available. Prompting user.');
-            await relauncher.ensureCDPAndRelaunch();
+            log('CDP not available. Prompting user for relaunch.');
+            const relaunched = await relauncher.ensureCDPAndRelaunch();
+
+            if (relaunched) {
+                log('Relaunch triggered. Waiting for Antigravity...');
+                // Give it up to 10 seconds to start
+                let retries = 20;
+                while (retries > 0) {
+                    await new Promise(r => setTimeout(r, 500));
+                    if (await cdpHandler.isCDPAvailable()) {
+                        log('Antigravity is back and CDP is ready.');
+                        startPolling();
+                        return;
+                    }
+                    retries--;
+                }
+                log('Antigravity taking too long to start. Please check manually.');
+            }
+
             isEnabled = false;
             await context.globalState.update('autopilot.isEnabled', isEnabled);
             updateStatusBar();
